@@ -4,6 +4,7 @@
     box-sizing: border-box;
     background: #000;
     color: #fff;
+    font-family: "Roboto";
 }
 
 
@@ -18,6 +19,7 @@
 
 .left_aside{
     display: flex;
+    flex-direction: column;
     border: 1px solid green;
     height:98vh;
     width: 60vh;
@@ -39,6 +41,23 @@
     width: 100vh;
 }
 
+
+
+/* ------------------------------- ASIDE IZQUIERDO -------------------------------------- */
+
+
 .left_header{
-    display: flex;    
+    display: flex;   
+    border: 1px solid yellow;
+    width: 100%;
+    font-size: 200%;
 }
+
+.left_header h1{
+    display: flex;   
+    margin-left: 4%;
+    margin-top: 3%;
+}
+
+
+
