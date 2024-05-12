@@ -214,7 +214,7 @@ body, html{
   .left_baseAlbum{
     display: flex;
     flex-direction: row;
-    border: 1px solid purple;
+    /* border: 1px solid purple; */
     width: 100%;
     justify-content: baseline;
     align-items: center;
@@ -236,7 +236,7 @@ body, html{
   .left_album{
     display: flex;
     flex-direction: row;
-    border: 1px solid lightblue;
+    /* border: 1px solid lightblue; */
     justify-content: center;
     align-items: flex-start;
     padding: 0;
@@ -248,7 +248,7 @@ body, html{
   .left_album2{
     display: flex;
     flex-direction: row;
-    border: 1px solid lightblue;
+    /* border: 1px solid lightblue; */
     justify-content: center;
     align-items: flex-start;
     padding: 0;
@@ -287,4 +287,23 @@ body, html{
   }
   
 
-  
+  /* ---------------------------- left YOU MAY LIKE --------------------------------------------------- */
+
+  .left_youMayLike{
+    display: flex;
+    border: 1px solid yellow;
+    width: 100%;
+    height: 5vh;
+    margin-top:2.5%;
+    align-items: center;
+  }
+
+  .left_youMayLikeTitle{
+    display: flex;
+    border: 1px solid blue;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    margin-left: 5%;
+    font-size: 100%;
+  }
