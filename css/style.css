@@ -2,7 +2,7 @@
 
 *{
     box-sizing: border-box;
-    background: #000;
+    /* background: #000; */
     color: #fff;
     font-family: "Roboto";
 }
@@ -10,17 +10,17 @@
 
  /* ------------------------------------- CAJAS --------------------------------------- */
 
-.main{
-    display: flex;
-    border: 1px solid red;
-    width: 100%;
-    height: 100%;
+ .main{
+  display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    height: 100vh;
+    background: #000;
 }
 
 .left_aside{
     display: flex;
     flex-direction: column;
-    border: 1px solid green;
+    border: 1px solid blue;
     height:98vh;
     width: 60vh;
 
@@ -36,9 +36,9 @@
 
 .section_middle{
     display: flex;
-    border: 1px solid green;
+    border: 1px solid orangered;
     height:98vh;
-    width: 100vh;
+    width: 100%;
 }
 
 
@@ -88,11 +88,11 @@
 /* this is a recreation of twitter search in css */
 .form {
     --input-text-color: #fff;
-    --input-bg-color: #283542;
+    --input-bg-color: #1f1f1f;
     --focus-input-bg-color: transparent;
     --text-color: #949faa;
-    --active-color: #1b9bee;
-    --width-of-input: 200px;
+    --active-color: #fff;
+    --width-of-input: 90%;
     --inline-padding-of-input: 1.2em;
     --gap: 0.9rem;
   }
