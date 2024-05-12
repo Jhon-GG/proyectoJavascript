@@ -225,7 +225,7 @@ body, html{
   .left_baseAlbum2{
     display: flex;
     flex-direction: row;
-    border: 1px solid purple;
+    /* border: 1px solid purple; */
     width: 100%;
     justify-content: baseline;
     align-items: center;
@@ -291,7 +291,7 @@ body, html{
 
   .left_youMayLike{
     display: flex;
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     width: 100%;
     height: 5vh;
     margin-top:2.5%;
@@ -300,10 +300,125 @@ body, html{
 
   .left_youMayLikeTitle{
     display: flex;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 100%;
     height: 100%;
     align-items: center;
     margin-left: 5%;
     font-size: 100%;
   }
+
+  /* ---------------------------- YOU MAY LIKE CONTENT ------------------------------------- */
+
+  .left_youMayLikeList{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid yellow; */
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+
+  .left_youMayLikeListBoxes{
+    display: flex;
+    /* border: 1px solid palevioletred; */
+    width: 90%;
+    height: 8vh;
+    gap: 4%;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 20%;
+  }
+
+  .left_youMayLikeListImg{
+    display: flex;
+    /* border: 1px solid red; */
+    width: 8vh;
+    height: 100%; 
+  }
+
+  .left_youMayLikeListImg img{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border-radius: 10%; 
+  }
+
+
+  .left_youMayLikeListDescription{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid brown; */
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .left_youMayLikeListDescription h3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 3vh;
+    margin: 0;
+    padding: 0;
+    font-size: 130%;
+  }
+
+  .left_youMayLikeListDescription p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 3vh;
+    font-size: 90%;
+    margin: 0;
+    padding: 0;
+    margin-top: -3%;
+  }
+
+
+  .left_youMayLikeListTime{
+    display: flex;
+    /* border: 1px solid blue; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+    margin-left: 4%;
+  }
+
+  .left_youMayLikeListTime h3{
+    width: 100%;
+    height: 3vh;
+    /* border: 1px solid orange; */
+    justify-content: flex-end;
+    text-align: end;
+    align-items: flex-end;
+    font-size: 140%;
+    margin: 0;
+    margin-right: 0;
+  }
+
+  .left_youMayLikeListTime p{
+    display: flex;
+    /* border: 1px solid orange; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    width: 100%;
+    height: 3vh;
+    font-size: 90%;
+    margin-top: -3%;
+    margin: 0;
+  }
+
+
+
+
+
+
