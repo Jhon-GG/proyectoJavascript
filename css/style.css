@@ -28,7 +28,7 @@ body, html{
 .left_aside{
     display: flex;
     flex-direction: column;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     height:100vh;
     width: 50vh;
 
@@ -47,6 +47,7 @@ body, html{
     border: 1px solid orangered;
     height:100vh;
     width: 100%;
+    justify-content: center;
 }
 
 
@@ -417,6 +418,25 @@ body, html{
     margin: 0;
   }
 
+
+/* -------------------------------------- BOX PRINCIPAL CENTRAL ------------------------------------------------------- */
+
+.section_middleHeader{
+  display: flex;
+  /* border: 1px solid red; */
+  width: 50%;
+  height: 5vh;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+}
+
+.section_middleHeader h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 170%;
+}
 
 
 
