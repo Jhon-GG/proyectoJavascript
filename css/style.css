@@ -44,6 +44,7 @@ body, html{
 
 .section_middle{
     display: flex;
+    flex-direction: column;
     border: 1px solid orangered;
     height:100vh;
     width: 100%;
@@ -423,8 +424,8 @@ body, html{
 
 .section_middleHeader{
   display: flex;
-  /* border: 1px solid red; */
-  width: 50%;
+  border: 1px solid red;
+  width: 100%;
   height: 5vh;
   justify-content: center;
   align-items: center;
@@ -436,6 +437,33 @@ body, html{
   justify-content: center;
   align-items: center;
   font-size: 170%;
+}
+
+.section_middleFrame{
+  display: flex;
+  border: 1px solid blue ;
+  width: 50%;
+  height: 100%;
+  margin-top: 10%;
+}
+
+
+/* ----------------------------------------- RIGHT ASIDE TITLE --------------------------------------- */
+
+
+.right_asideTitle{
+  display: flex;
+  border: 1px solid purple; 
+  width: 100%;
+  height: 5vh;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.right_asideTitle h1{
+  display: flex;
+  font-size: 180%;
+  margin-left: 5%;
 }
 
 
