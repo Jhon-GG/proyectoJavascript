@@ -2,7 +2,6 @@
 
 *{
     box-sizing: border-box;
-    /* background: #000; */
     color: #fff;
     font-family: "Roboto";
 }
@@ -10,26 +9,35 @@
 
  /* ------------------------------------- CAJAS --------------------------------------- */
 
+body, html{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
  .main{
-  display: grid;
+    display: grid;
     grid-template-columns: 1fr 3fr 1fr;
+    width: 100%;
     height: 100vh;
     background: #000;
+    margin: 0 0 0 0;
 }
 
 .left_aside{
     display: flex;
     flex-direction: column;
     border: 1px solid blue;
-    height:98vh;
-    width: 60vh;
+    height:100vh;
+    width: 50vh;
 
 }
 
 .right_aside{
     display: flex;
     border: 1px solid green;
-    height:98vh;
+    height:100vh;
     width: 45vh;
 
 }
@@ -37,7 +45,7 @@
 .section_middle{
     display: flex;
     border: 1px solid orangered;
-    height:98vh;
+    height:100vh;
     width: 100%;
 }
 
@@ -49,7 +57,9 @@
 .left_header{
     display: flex;   
     width: 100%;
+    height: 17%;
     font-size: 200%;
+    /* border: 1px solid yellow; */
 }
 
 .left_header h1{
@@ -65,7 +75,6 @@
     width: 100%;
     height: 5%;
     margin-left: 0;
-    border: 1px solid purple;
     justify-content: space-between;
     align-items: center;
 
@@ -73,7 +82,7 @@
 
 .left_search{
     display: flex;
-    font-size: 130%;
+    /* font-size: 200%; */
     align-items: center;
     margin-left: 5%;
     width: 100%;
@@ -92,13 +101,15 @@
     --focus-input-bg-color: transparent;
     --text-color: #949faa;
     --active-color: #fff;
-    --width-of-input: 90%;
+    --width-of-input: 95%;
+    height: 100%;
     --inline-padding-of-input: 1.2em;
     --gap: 0.9rem;
+    margin-left: 0%;
   }
   /* form style */
   .form {
-    font-size: 0.9rem;
+    font-size: 1rem;
     display: flex;
     gap: 0.5rem;
     align-items: center;
@@ -196,3 +207,84 @@
     -webkit-transition: "color 9999s ease-out, background-color 9999s ease-out";
     -webkit-transition-delay: 9999s;
   }
+
+
+  /* ------------------------------- left album ------------------------------------------------- */
+
+  .left_baseAlbum{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid purple;
+    width: 100%;
+    justify-content: baseline;
+    align-items: center;
+    height: 25vh;
+    margin-top: 3%;
+  }
+
+  .left_baseAlbum2{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid purple;
+    width: 100%;
+    justify-content: baseline;
+    align-items: center;
+    height: 25vh;
+    margin-top: 4%;
+  }
+
+  .left_album{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid lightblue;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0;
+    width: 40%;
+    height: 25vh;
+    margin-left: 7%;
+  }
+
+  .left_album2{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid lightblue;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0;
+    width: 40%;
+    height: 25vh;
+    margin-left: 6%;
+  }
+
+  .left_albumContent{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left_albumContent img{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .left_albumContent h2{
+    display: flex;
+    font-size: 120%;
+    margin-top: 3%;
+  }
+
+  .left_albumContent p{
+    display: flex;
+    margin-top: -9%;
+    font-size: 90%;
+    color: #949faa;
+  }
+  
+
+  
