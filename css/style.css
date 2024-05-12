@@ -37,7 +37,7 @@ body, html{
 .right_aside{
     display: flex;
     flex-direction: column;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     height:100vh;
     width: 45vh;
 
@@ -334,6 +334,10 @@ body, html{
     margin-right: 20%;
   }
 
+  .left_youMayLikeListBoxes{
+    cursor: pointer;
+  }
+
   .left_youMayLikeListImg{
     display: flex;
     /* border: 1px solid red; */
@@ -456,7 +460,7 @@ body, html{
 
 .right_asideTitle{
   display: flex;
-  border: 1px solid purple; 
+  /* border: 1px solid purple;  */
   width: 100%;
   height: 5vh;
   align-items: center;
@@ -487,7 +491,117 @@ body, html{
   margin-left: 5%;
   width: 100%;
   height: 100%;
-
 }
 
+
+.right_asideList{
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid yellow; */
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.right_asideListBoxes{
+  display: flex;
+  /* border: 1px solid palevioletred; */
+  width: 90%;
+  height: 8vh;
+  gap: 4%;
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-right: 20%;
+}
+
+.right_asideListBoxes:hover{
+  cursor: pointer;
+}
+
+.right_asideListImg{
+  display: flex;
+  /* border: 1px solid red; */
+  width: 8vh;
+  height: 100%; 
+}
+
+.right_asideListImg img{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border-radius: 10%; 
+}
+
+
+.right_asideListDescription{
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid brown; */
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.right_asideListDescription h3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 3vh;
+  margin: 0;
+  padding: 0;
+  font-size: 130%;
+}
+
+.right_asideListDescription p{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 3vh;
+  font-size: 90%;
+  margin: 0;
+  padding: 0;
+  margin-top: -3%;
+}
+
+
+.right_asideListTime{
+  display: flex;
+  /* border: 1px solid blue; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  height: 100%;
+  margin-left: 4%;
+}
+
+.right_asideListTime h3{
+  width: 100%;
+  height: 3vh;
+  /* border: 1px solid orange; */
+  justify-content: flex-end;
+  text-align: end;
+  align-items: flex-end;
+  font-size: 140%;
+  margin: 0;
+  margin-right: 0;
+}
+
+.right_asideListTime p{
+  display: flex;
+  /* border: 1px solid orange; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  width: 100%;
+  height: 3vh;
+  font-size: 90%;
+  margin-top: -3%;
+  margin: 0;
+}
 
