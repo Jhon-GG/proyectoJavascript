@@ -9,7 +9,7 @@ class myframe extends HTMLElement{
     
     connectedCallback(){
         this.shadowRoot.innerHTML = /*html*/`
-            <iframe class="spotify-iframe" width="350" height="500" src="https://open.spotify.com/embed/track/${this.id}" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>       
+            <iframe class="spotify-iframe" width="100%" height="50%" src="https://open.spotify.com/embed/track/${this.id}" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>       
         `
         
     }
