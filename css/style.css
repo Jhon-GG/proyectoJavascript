@@ -16,6 +16,7 @@ body, html{
   height: 100%;
 }
 
+
  .main{
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
@@ -28,24 +29,21 @@ body, html{
 .left_aside{
     display: flex;
     flex-direction: column;
-    /* border: 1px solid blue; */
     height:100vh;
-    width: 50vh;
+    width: 25vw;
 }
 
 .right_aside{
     display: flex;
     flex-direction: column;
-    /* border: 1px solid green; */
     height:100vh;
-    width: 45vh;
+    width: 20vw;
 
 }
 
 .section_middle{
     display: flex;
     flex-direction: column;
-    /* border: 1px solid orangered; */
     height:100vh;
     width: 100%;
 }
@@ -648,3 +646,88 @@ body, html{
   margin: 0;
 }
 
+
+/* ------------------ BOTONES ------------------ */
+
+/* Estilos para los botones */
+.show_left_button, .show_right_button {
+  display: none;
+  position: fixed;
+  bottom: 20px; /* Ajusta la distancia desde el borde inferior */
+  z-index: 9999;
+  background-color: #000000; /* Color de fondo azul */
+  border: 1px solid #fff;
+  color: #ffffff; /* Color del texto blanco */
+  padding: 10px 20px; /* Espaciado interno */
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer; /* Cursor de puntero */
+}
+
+/* Estilos específicos para los botones */
+.show_left_button {
+  left: 20px;
+}
+
+.show_right_button {
+  right: 20px;
+}
+
+
+
+/* -------------------------------- RESPONSIVE --------------------------------------- */
+
+/* Estilos para los botones en dispositivos móviles */
+@media screen and (max-width: 768px) {
+  /* Mostrar botones solo en pantallas pequeñas */
+  .show_left_button, .show_right_button {
+      display: block;
+  }
+}
+
+/* Estilos para los botones en la versión de escritorio */
+@media screen and (min-width: 769px) {
+  /* Ocultar botones en la versión de escritorio */
+  .show_left_button, .show_right_button {
+      display: none;
+  }
+}
+
+@media screen and (max-width: 768px){
+
+  /* Ocultar parte izquierda y derecha en pantallas pequeñas */
+  .left_aside, .right_aside {
+    display: none;
+}
+
+/* Mostrar solo parte central en pantallas pequeñas */
+.section_middle {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+/* .left_aside{
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+    width:25vh;
+}
+
+.right_aside{
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+    width: 45vh;
+
+}
+
+.section_middle{
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+    width: 100%;
+} */
+
+}
