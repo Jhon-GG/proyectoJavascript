@@ -1,0 +1,2752 @@
+{
+    "albums": {
+      "totalCount": 898,
+      "items": [
+        {
+          "data": {
+            "uri": "spotify:album:3sL9Myf7JF1k9TbrXE46ou",
+            "name": "Blinding Lights",
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:1Xyo4u8uXC1ZmMpatF05PJ",
+                  "profile": {
+                    "name": "The Weeknd"
+                  }
+                }
+              ]
+            },
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e02a3eff72f62782fb589a492f9",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00004851a3eff72f62782fb589a492f9",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b273a3eff72f62782fb589a492f9",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "date": {
+              "year": 2020
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:album:2xdFoFzJDYziRnia2PBEgt",
+            "name": "Blinding Lights (Country Version)",
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:2S0WpGRnEPyS5OuMp3KOEo",
+                  "profile": {
+                    "name": "Tebey"
+                  }
+                }
+              ]
+            },
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e0230a7da693427ed4c700b9734",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000485130a7da693427ed4c700b9734",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b27330a7da693427ed4c700b9734",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "date": {
+              "year": 2024
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:album:4vh9LW3igRT6NayBnmb8fZ",
+            "name": "Blinding Lights",
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:33qOK5uJ8AR2xuQQAhHump",
+                  "profile": {
+                    "name": "Teddy Swims"
+                  }
+                }
+              ]
+            },
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e02a9e822d72b4b822e80e8f9bc",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00004851a9e822d72b4b822e80e8f9bc",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b273a9e822d72b4b822e80e8f9bc",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "date": {
+              "year": 2020
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:album:0JP8g1cQv5P4SZPkoseoHM",
+            "name": "Blinding Lights (Country Version)",
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:1DhQ0p333jod96LN2n2Yqf",
+                  "profile": {
+                    "name": "Texas Hammer"
+                  }
+                }
+              ]
+            },
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e02eca3c3bdf5cfccd1ef19a300",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00004851eca3c3bdf5cfccd1ef19a300",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b273eca3c3bdf5cfccd1ef19a300",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "date": {
+              "year": 2022
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:album:3Bp4QzJlhnqgJ5CW9zfEo7",
+            "name": "Blinding Lights",
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:6Fwq3TDWpMhcL1KTKVQiI8",
+                  "profile": {
+                    "name": "Saint Asonia"
+                  }
+                }
+              ]
+            },
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e0273aa56f1d6235e36159bc147",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000485173aa56f1d6235e36159bc147",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b27373aa56f1d6235e36159bc147",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "date": {
+              "year": 2021
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:album:6pQZPa398NswBXGYyqHH7y",
+            "name": "Blinding Lights",
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:574qIjE9UTvfSvtnIrdLaE",
+                  "profile": {
+                    "name": "Loi"
+                  }
+                }
+              ]
+            },
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e027a766d6855ae295b6a262cf5",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d000048517a766d6855ae295b6a262cf5",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b2737a766d6855ae295b6a262cf5",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "date": {
+              "year": 2021
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:album:6W02DhaFOr3p1PkEOUDLJT",
+            "name": "Blinding Lights (Piano Instrumental)",
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:1m7V9rstnZ264nGJe9MDUq",
+                  "profile": {
+                    "name": "Chilled Pig"
+                  }
+                }
+              ]
+            },
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e028369b965e394e1db0ad3230a",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d000048518369b965e394e1db0ad3230a",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b2738369b965e394e1db0ad3230a",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "date": {
+              "year": 2022
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:album:1RinMQThKCHcrk6hMf6QiN",
+            "name": "Blinding Lights",
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:7KigP1NA8s7IiVIxP5ndwJ",
+                  "profile": {
+                    "name": "Revelries"
+                  }
+                },
+                {
+                  "uri": "spotify:artist:2o1DwIg0eMGpA5m6zLLG2I",
+                  "profile": {
+                    "name": "Victoria Voss"
+                  }
+                }
+              ]
+            },
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e02c9616e0194505800d88627a9",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00004851c9616e0194505800d88627a9",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b273c9616e0194505800d88627a9",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "date": {
+              "year": 2020
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:album:2ektqBOgstESA5KX3CxdYU",
+            "name": "Blinding Lights (Piano Version)",
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:1jUIOsS9vK91Nc9qYvpEab",
+                  "profile": {
+                    "name": "Flying Fingers"
+                  }
+                },
+                {
+                  "uri": "spotify:artist:4Xx6QMLTWppMwdABkN0Afj",
+                  "profile": {
+                    "name": "Piano Tribute Players"
+                  }
+                }
+              ]
+            },
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e02bcb1217a9c721923eaceeb16",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00004851bcb1217a9c721923eaceeb16",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b273bcb1217a9c721923eaceeb16",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "date": {
+              "year": 2020
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:album:5u1YtTZLI71N1Xj6CBYWxZ",
+            "name": "Blinding Lights",
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:10Z7WzKMeIdNBKexi1YarP",
+                  "profile": {
+                    "name": "Fame on Fire"
+                  }
+                }
+              ]
+            },
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e02572ca2a3029bfbb7d16d8de6",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00004851572ca2a3029bfbb7d16d8de6",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b273572ca2a3029bfbb7d16d8de6",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "date": {
+              "year": 2020
+            }
+          }
+        }
+      ]
+    },
+    "artists": {
+      "totalCount": 23,
+      "items": [
+        {
+          "data": {
+            "uri": "spotify:artist:2S0WpGRnEPyS5OuMp3KOEo",
+            "profile": {
+              "name": "Tebey"
+            },
+            "visuals": {
+              "avatarImage": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb2994f709c04da5bd8cf00a90",
+                    "width": 640,
+                    "height": 640
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000f1782994f709c04da5bd8cf00a90",
+                    "width": 160,
+                    "height": 160
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab676161000051742994f709c04da5bd8cf00a90",
+                    "width": 320,
+                    "height": 320
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:artist:2HtZTcQT4lwG8AEZ3inymK",
+            "profile": {
+              "name": "Blinding Lights"
+            },
+            "visuals": {
+              "avatarImage": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb141ae4974a08f6fd23e93049",
+                    "width": 640,
+                    "height": 640
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000f178141ae4974a08f6fd23e93049",
+                    "width": 160,
+                    "height": 160
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616100005174141ae4974a08f6fd23e93049",
+                    "width": 320,
+                    "height": 320
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:artist:75FTvOoHlCUwOb7IMBIa4k",
+            "profile": {
+              "name": "Blinding Sunrise"
+            },
+            "visuals": {
+              "avatarImage": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb45e8d7c2c3c1a06241216842",
+                    "width": 640,
+                    "height": 640
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000f17845e8d7c2c3c1a06241216842",
+                    "width": 160,
+                    "height": 160
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000517445e8d7c2c3c1a06241216842",
+                    "width": 320,
+                    "height": 320
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:artist:1Xyo4u8uXC1ZmMpatF05PJ",
+            "profile": {
+              "name": "The Weeknd"
+            },
+            "visuals": {
+              "avatarImage": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb214f3cf1cbe7139c1e26ffbb",
+                    "width": 640,
+                    "height": 640
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000f178214f3cf1cbe7139c1e26ffbb",
+                    "width": 160,
+                    "height": 160
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616100005174214f3cf1cbe7139c1e26ffbb",
+                    "width": 320,
+                    "height": 320
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:artist:73zcp4glv5ZHb0Mi0Pl5wo",
+            "profile": {
+              "name": "The Blinding Lights"
+            },
+            "visuals": {
+              "avatarImage": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273151ef330547c17f03f7ed523",
+                    "width": 640,
+                    "height": 640
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00004851151ef330547c17f03f7ed523",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02151ef330547c17f03f7ed523",
+                    "width": 300,
+                    "height": 300
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:artist:5uiEF5htEqJgHcOajZ25ns",
+            "profile": {
+              "name": "Blinded Hearts"
+            },
+            "visuals": {
+              "avatarImage": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb16abcdb03e9fe3ebf51eff9f",
+                    "width": 640,
+                    "height": 640
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000f17816abcdb03e9fe3ebf51eff9f",
+                    "width": 160,
+                    "height": 160
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000517416abcdb03e9fe3ebf51eff9f",
+                    "width": 320,
+                    "height": 320
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:artist:2cvkBIqMiUkw8ir7sidpSV",
+            "profile": {
+              "name": "Blinding Lights"
+            },
+            "visuals": {
+              "avatarImage": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273743234096d20816e7aa8ace6",
+                    "width": 640,
+                    "height": 640
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00004851743234096d20816e7aa8ace6",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02ebde453103a9f1b866a207ed",
+                    "width": 300,
+                    "height": 300
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:artist:6KYxzQ51NsDbYrdJulmpNu",
+            "profile": {
+              "name": "Blinded by Love"
+            },
+            "visuals": {
+              "avatarImage": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273e279578a04e53b7afd115d0c",
+                    "width": 640,
+                    "height": 640
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00004851e279578a04e53b7afd115d0c",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02e279578a04e53b7afd115d0c",
+                    "width": 300,
+                    "height": 300
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:artist:5WOrgHylchAI3NWanAp1kj",
+            "profile": {
+              "name": "Blinding Lights"
+            },
+            "visuals": {
+              "avatarImage": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273b96270238fc88919e38ddded",
+                    "width": 640,
+                    "height": 640
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00004851b96270238fc88919e38ddded",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02b96270238fc88919e38ddded",
+                    "width": 300,
+                    "height": 300
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:artist:4du0xlNPV2htvxPHw4dXn6",
+            "profile": {
+              "name": "The Blinding Lights"
+            },
+            "visuals": {
+              "avatarImage": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000b27312ca16784f1d4cb54ac7eca2",
+                    "width": 640,
+                    "height": 640
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000485112ca16784f1d4cb54ac7eca2",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00001e0212ca16784f1d4cb54ac7eca2",
+                    "width": 300,
+                    "height": 300
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ]
+    },
+    "episodes": {
+      "totalCount": 254,
+      "items": [
+        {
+          "data": {
+            "uri": "spotify:episode:60Mtq30qGdUEyazk2fhtwE",
+            "name": "Ariana Grande - Blinding Lights (AI cover)",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68d085da6fed47a3141fe12b849",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1f085da6fed47a3141fe12b849",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8a085da6fed47a3141fe12b849",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "duration": {
+              "totalMilliseconds": 202666
+            },
+            "releaseDate": {
+              "isoString": "2023-07-30T18:18:00Z"
+            },
+            "podcast": {
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6765630000f68d085da6fed47a3141fe12b849",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67656300005f1f085da6fed47a3141fe12b849",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6765630000ba8a085da6fed47a3141fe12b849",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              }
+            },
+            "description": "Ariana Grande Blinding Lights by The Weeknd AI cover",
+            "contentRating": {
+              "label": "NONE"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:episode:76sgFtP50UimRpZhrdyIWE",
+            "name": "The Weeknd - Blinding Lights",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68ddf11dbc467d9bea4e3681c11",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1fdf11dbc467d9bea4e3681c11",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8adf11dbc467d9bea4e3681c11",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "duration": {
+              "totalMilliseconds": 1301106
+            },
+            "releaseDate": {
+              "isoString": "2020-07-10T20:04:00Z"
+            },
+            "podcast": {
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6765630000f68dd253cee8c6ee01bc564f5562",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67656300005f1fd253cee8c6ee01bc564f5562",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6765630000ba8ad253cee8c6ee01bc564f5562",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              }
+            },
+            "description": "We keep it modern yet retro all in one play as we dissect The Weeknd's latest masterpiece - \"Blinding Lights\".",
+            "contentRating": {
+              "label": "NONE"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:episode:07hL1syykka9I8bNyPDwCr",
+            "name": "The Weekend - Blinding Lights (Holiday Remix)",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68dbf63b4fc4b54c7bd3f5890d8",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1fbf63b4fc4b54c7bd3f5890d8",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8abf63b4fc4b54c7bd3f5890d8",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "duration": {
+              "totalMilliseconds": 200333
+            },
+            "releaseDate": {
+              "isoString": "2023-12-22T20:56:00Z"
+            },
+            "podcast": {
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6765630000f68db790b2d7055658d52fc8dfc0",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67656300005f1fb790b2d7055658d52fc8dfc0",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6765630000ba8ab790b2d7055658d52fc8dfc0",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              }
+            },
+            "description": "Music Program",
+            "contentRating": {
+              "label": "NONE"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:episode:37WpgosnpcbK7HhTn8ZboC",
+            "name": "Blinding Lights X Someone Else",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68df0b0de07be624af4eb2cc2b1",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1ff0b0de07be624af4eb2cc2b1",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8af0b0de07be624af4eb2cc2b1",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "duration": {
+              "totalMilliseconds": 216363
+            },
+            "releaseDate": {
+              "isoString": "2023-09-03T11:13:00Z"
+            },
+            "podcast": {
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6765630000f68d9b2e9fa0ec4acd39ff973f30",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67656300005f1f9b2e9fa0ec4acd39ff973f30",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6765630000ba8a9b2e9fa0ec4acd39ff973f30",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              }
+            },
+            "description": "the weekend’s blinding lights and rezz’s someone else mashed up",
+            "contentRating": {
+              "label": "NONE"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:episode:7thN7d4Ur29waiiGNusc6r",
+            "name": "UNE CHANSON - L'histoire de \"Blinding Lights\" de The Weeknd",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68dbf3cb3d9b880429377407851",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1fbf3cb3d9b880429377407851",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8abf3cb3d9b880429377407851",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "duration": {
+              "totalMilliseconds": 266340
+            },
+            "releaseDate": {
+              "isoString": "2024-04-26T07:38:00Z"
+            },
+            "podcast": {
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6765630000f68dd961832abaecde50d813109a",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67656300005f1fd961832abaecde50d813109a",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6765630000ba8ad961832abaecde50d813109a",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              }
+            },
+            "description": "Ecoutez Une chanson, une histoire avec Jérôme Florin du 26 avril 2024",
+            "contentRating": {
+              "label": "NONE"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:episode:2lDRVHbUZdebPKO9dP5gCT",
+            "name": "B1 - Song lyrics - The Weeknd - Blinding Lights",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68dc113e66484d1669db329f0c9",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1fc113e66484d1669db329f0c9",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8ac113e66484d1669db329f0c9",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "duration": {
+              "totalMilliseconds": 1152261
+            },
+            "releaseDate": {
+              "isoString": "2023-06-30T17:01:00Z"
+            },
+            "podcast": {
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6765630000f68d950f49754cf30be7e81f8add",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67656300005f1f950f49754cf30be7e81f8add",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6765630000ba8a950f49754cf30be7e81f8add",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              }
+            },
+            "description": "In this episode, Jack talks about the lyrics to the song Blinding Lights by the artist known as The Weekend. You can read the transcript on the page for this podcast on Learn English Vocabulary.Support this podcast at — https://redcircle.com/learn-english-vocabulary/donationsAdvertising Inquiries: https://redcircle.com/brandsPrivacy & Opt-Out: https://redcircle.com/privacy",
+            "contentRating": {
+              "label": "NONE"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:episode:6gwd7NQa66gRZEl9EIkpnG",
+            "name": "The Weeknd - Blinding Lights",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68d8836b9c88098671026776d1b",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1f8836b9c88098671026776d1b",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8a8836b9c88098671026776d1b",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "duration": {
+              "totalMilliseconds": 237322
+            },
+            "releaseDate": {
+              "isoString": "2024-02-26T21:24:00Z"
+            },
+            "podcast": {
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6765630000f68d8836b9c88098671026776d1b",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67656300005f1f8836b9c88098671026776d1b",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6765630000ba8a8836b9c88098671026776d1b",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              }
+            },
+            "description": "",
+            "contentRating": {
+              "label": "NONE"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:episode:7HBXzCQXPz28iRzb0DE8gS",
+            "name": "Glitch In The Matrix Stories (Vol. 10) - BLINDING LIGHTS AND DISAPPEARANCES",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68d8fc3d6577124ed5d3a1d70e3",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1f8fc3d6577124ed5d3a1d70e3",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8a8fc3d6577124ed5d3a1d70e3",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "duration": {
+              "totalMilliseconds": 1256071
+            },
+            "releaseDate": {
+              "isoString": "2020-11-18T12:00:00Z"
+            },
+            "podcast": {
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6765630000f68d81dc5bb58f9965deec77596d",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67656300005f1f81dc5bb58f9965deec77596d",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6765630000ba8a81dc5bb58f9965deec77596d",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              }
+            },
+            "description": "#GlitchInTheMatrix Stories (Vol. 10) is a collection of some of the most interesting Glitch stories I've ever come across. From Disappearing people, to blinding lights, to doors that seemingly vanish and a questionable tooth. All of these are posted by everyday redditors.   Be sure to leave a comment telling me which story was your favorite!  All stories come with a Mild Content Warning for Language and/or Graphic content. Viewer Discretion is advised.  If you have a story you'd like me to narrate, send it my way! https://astheravendreams.reddex.app/submit   ✬ ✯ ✬ ✯ ✬ ✯ ✬ ✯ ✬ ✯ ✬ ✯ ✬ ✯ ✬ ✯ ✬ ✯ ✬ ✯ ✬ ✯ ✬     【Join The Nevermore】  SMASH That Thumbs Up Button!  Subscribble to the Chibble! ➠ youtube.com/c/astheravendreams  Check out my Website!  ➠ www.astheravendreams.com  Audiocast on Anchor/Spotify! ➠ https://anchor.fm/astheravendreams  Send me Spooky stories! ➠ https://astheravendreams.reddex.app/submit  EARLY ACCESS on Patreon!  ➠ https://patreon.com/AsTheRavenDreams  One Time KoFi Donations  ➠  https://ko-fi.com/astheravendreams  Official Merch Store ➠ https://teechip.com/stores/astheravendreams  Follow me on Twitter  ➠  https://twitter.com/RavensDreamYT  Join Our Discord ➠ https://discord.gg/ncT9j9H  Check out my Subreddit ➠ https://reddit.com/r/TheRavensDream    ✯ ✬ ✯ ✬ ✯ ✬ ✯ ✬ ✯ ✬ ✯ ✬ ✯ ✬ ✯ ✬ ✯ ✬ ✯ ✬ ✯ ✬ ✯ ✬     【Credits & Times】    0:00  ➠  Be Sure to Like the Video for more!  0:09  ➠  Story By questionablechoice_  ➠  https://www.reddit.com/r/Glitch_in_the_Matrix/comments/jcbzgx/sudden_flash_of_extremely_bright_light/   5:14  ➠  Story By rapalosaur  ➠  https://www.reddit.com/r/Glitch_in_the_Matrix/comments/je758z/disappearing_driver/   9:10  ➠  Story By QueenoftheNile23  ➠  https://www.reddit.com/r/Glitch_in_the_Matrix/comments/jivwho/whos_tooth_is_that/   12:50  ➠  Story By Blueberry_Remarkable  ➠  https://www.reddit.com/r/Glitch_in_the_Matrix/comments/jls88r/blinding_lights/   16:04  ➠  Story By Questions-88  ➠  https://www.reddit.com/r/Glitch_in_the_Matrix/comments/ji5zro/basement_room_with_no_windows/     ✯ ✬ ✯ ✬ ✯ ✬ ✯ ✬ ✯ ✬ ✯ ✬ ✯ ✬ ✯ ✬ ✯ ✬ ✯ ✬ ✯ ✬ ✯ ✬     【Disclaimer】  All stories used with permission, or under some level of Creative Commons License. Some stock footage from https://freestockfootagearchive.com. If music is not credited above, it is either free to use or original. The Music on ALL Raven Investigates videos is a modified version of  \"Falling Rain\" By Myuu.  Thank you to EVERYONE that watches my videos, and thank you to all my  subscribers. Have a nice day, much love, and Sleep well.  --Raven.     ✯ ✬ ✯ ✬ ✯ ✬ ✯ ✬ ✯ ✬ ✯ ✬ ✯ ✬ ✯ ✬ ✯ ✬ ✯ ✬ ✯ ✬ ✯ ✬     Be sure to *subscribe* if you like any of the following; Glitch In The Matrix Stories - Cryptid Encounter Stories - Creepy Encounter Stories - Let's Not Meet Stories - Reddit Ghost Stories - Scary Horror Stories - Creepypasta - Reddit Paranormal Stories - Missing 411 Stories - Backwoods Horror Stories - Horror Stories - True Scary Stories   ---   Send in a voice message: https://podcasters.spotify.com/pod/show/astheravendreams/message Support this podcast: https://podcasters.spotify.com/pod/show/astheravendreams/support Learn more about your ad choices. Visit megaphone.fm/adchoices",
+            "contentRating": {
+              "label": "NONE"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:episode:5WgwF2lhBlSKcwSYMcvd42",
+            "name": "Blinding Lights - The Weeknd",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68d3d86d51268884aee0f107e23",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1f3d86d51268884aee0f107e23",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8a3d86d51268884aee0f107e23",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "duration": {
+              "totalMilliseconds": 241293
+            },
+            "releaseDate": {
+              "isoString": "2020-07-16T02:46:00Z"
+            },
+            "podcast": {
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6765630000f68df5c3cb0e78367ee0b5c65ea7",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67656300005f1ff5c3cb0e78367ee0b5c65ea7",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6765630000ba8af5c3cb0e78367ee0b5c65ea7",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              }
+            },
+            "description": "Sembra di stare negli anni '80 ma nel 2020. The Weekend non è solo un'artista, è una macchina del tempo. Learn more about your ad choices. Visit megaphone.fm/adchoices",
+            "contentRating": {
+              "label": "NONE"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:episode:0uCgsAayWDEIHoCAmRgN9X",
+            "name": "(The Beatles) Here Comes The Sun - DON'T START NOW - POPSTAR - BLINDING LIGHTS STARBOY",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/500f34853a47ce73403263ffa6c5be3c78fc27ac",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/e5786a9cb7065bb33a7af8687db33eac344c38b7",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/79b4ee39115b837d04406002e38d23aed0f42156",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "duration": {
+              "totalMilliseconds": 196093
+            },
+            "releaseDate": {
+              "isoString": "2020-08-16T22:45:00Z"
+            },
+            "podcast": {
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/07771d934e718e0370021073732a74618f71545c",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/da8c58886732ffba9e2293f28654225932ef2d95",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/5f9ec3523eced3a4df5c19cb4adb9f7d326e2eb6",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              }
+            },
+            "description": "(The Beatles) Here Comes The Sun - DON'T START NOW - POPSTAR - BLINDING LIGHTS STARBOY by Why Are You Running",
+            "contentRating": {
+              "label": "NONE"
+            }
+          }
+        }
+      ]
+    },
+    "genres": {
+      "totalCount": 0,
+      "items": []
+    },
+    "playlists": {
+      "totalCount": 12,
+      "items": [
+        {
+          "data": {
+            "uri": "spotify:playlist:1c68Ghwf0O3w4FPuAlZU5q",
+            "name": "blinding lights 1 hour",
+            "description": "blinding lights by the weeknd only 1 hour loop (but its a little more than 1 hour but i will go with it) also pls follow me!!!",
+            "images": {
+              "items": [
+                {
+                  "sources": [
+                    {
+                      "url": "https://mosaic.scdn.co/640/ab67616d00001e027f2ad807a1247ce2b1c4ae38ab67616d00001e0281a3bb9348718b9703364c1cab67616d00001e02b15808aaebd02a5046cdf13fab67616d00001e02c464fabb4e51b72d657f779a",
+                      "width": 640,
+                      "height": 640
+                    },
+                    {
+                      "url": "https://mosaic.scdn.co/300/ab67616d00001e027f2ad807a1247ce2b1c4ae38ab67616d00001e0281a3bb9348718b9703364c1cab67616d00001e02b15808aaebd02a5046cdf13fab67616d00001e02c464fabb4e51b72d657f779a",
+                      "width": 300,
+                      "height": 300
+                    },
+                    {
+                      "url": "https://mosaic.scdn.co/60/ab67616d00001e027f2ad807a1247ce2b1c4ae38ab67616d00001e0281a3bb9348718b9703364c1cab67616d00001e02b15808aaebd02a5046cdf13fab67616d00001e02c464fabb4e51b72d657f779a",
+                      "width": 60,
+                      "height": 60
+                    }
+                  ]
+                }
+              ]
+            },
+            "owner": {
+              "name": "ㅤ"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:playlist:37i9dQZF1E8UXBoz02kGID",
+            "name": "Blinding Lights Radio",
+            "description": "With The Weeknd, The Neighbourhood, SZA and more",
+            "images": {
+              "items": [
+                {
+                  "sources": [
+                    {
+                      "url": "https://seeded-session-images.scdn.co/v2/img/122/secondary/track/0VjIjW4GlUZAMYd2vXMi3b/en",
+                      "width": null,
+                      "height": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "owner": {
+              "name": "Spotify"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:playlist:41ghq45jJFQswjubWxh2zR",
+            "name": "BLINDING LIGHTS (Remixes)",
+            "description": "I’M BLINDED BY THE LIGHTS",
+            "images": {
+              "items": [
+                {
+                  "sources": [
+                    {
+                      "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da847206173aae001c14190a8732",
+                      "width": null,
+                      "height": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "owner": {
+              "name": "dj_jules834"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:playlist:3sqOuZu6lO0SdhwfgIUd7j",
+            "name": "Blinding Lights",
+            "description": "",
+            "images": {
+              "items": [
+                {
+                  "sources": [
+                    {
+                      "url": "https://mosaic.scdn.co/640/ab67616d00001e025675e83f707f1d7271e5cf8aab67616d00001e028863bc11d2aa12b54f5aeb36ab67616d00001e02c6f7af36ecdc3ed6e0a1f169ab67616d00001e02e2e352d89826aef6dbd5ff8f",
+                      "width": 640,
+                      "height": 640
+                    },
+                    {
+                      "url": "https://mosaic.scdn.co/300/ab67616d00001e025675e83f707f1d7271e5cf8aab67616d00001e028863bc11d2aa12b54f5aeb36ab67616d00001e02c6f7af36ecdc3ed6e0a1f169ab67616d00001e02e2e352d89826aef6dbd5ff8f",
+                      "width": 300,
+                      "height": 300
+                    },
+                    {
+                      "url": "https://mosaic.scdn.co/60/ab67616d00001e025675e83f707f1d7271e5cf8aab67616d00001e028863bc11d2aa12b54f5aeb36ab67616d00001e02c6f7af36ecdc3ed6e0a1f169ab67616d00001e02e2e352d89826aef6dbd5ff8f",
+                      "width": 60,
+                      "height": 60
+                    }
+                  ]
+                }
+              ]
+            },
+            "owner": {
+              "name": "Bernasanchez1810@gmail.com"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:playlist:37i9dQZF1E8Pk2g1bkCXjW",
+            "name": "Blinding Lights - Country Version Radio",
+            "description": "With Tebey, Jojo Mason, Chad Brownlee and more",
+            "images": {
+              "items": [
+                {
+                  "sources": [
+                    {
+                      "url": "https://seeded-session-images.scdn.co/v2/img/122/secondary/track/6cRJTmba0JHDquftAkxUgG/en",
+                      "width": null,
+                      "height": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "owner": {
+              "name": "Spotify"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:playlist:0gMbPlMlcEm2JiSxkHo3pe",
+            "name": "80's Music That Vibes With 'Blinding Lights' by The Weeknd",
+            "description": "80's music that has the same vibes as The Weeknd's Blinding Lights",
+            "images": {
+              "items": [
+                {
+                  "sources": [
+                    {
+                      "url": "https://mosaic.scdn.co/640/ab67616d00001e027b436d31c5ae44b334736619ab67616d00001e02809dabe7965b6ec01d0637b6ab67616d00001e02c464fabb4e51b72d657f779aab67616d00001e02e8dd4db47e7177c63b0b7d53",
+                      "width": 640,
+                      "height": 640
+                    },
+                    {
+                      "url": "https://mosaic.scdn.co/300/ab67616d00001e027b436d31c5ae44b334736619ab67616d00001e02809dabe7965b6ec01d0637b6ab67616d00001e02c464fabb4e51b72d657f779aab67616d00001e02e8dd4db47e7177c63b0b7d53",
+                      "width": 300,
+                      "height": 300
+                    },
+                    {
+                      "url": "https://mosaic.scdn.co/60/ab67616d00001e027b436d31c5ae44b334736619ab67616d00001e02809dabe7965b6ec01d0637b6ab67616d00001e02c464fabb4e51b72d657f779aab67616d00001e02e8dd4db47e7177c63b0b7d53",
+                      "width": 60,
+                      "height": 60
+                    }
+                  ]
+                }
+              ]
+            },
+            "owner": {
+              "name": "Vinny Paladino"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:playlist:5ABHKGoOzxkaa28ttQV9sE",
+            "name": "Top 100 most streamed songs on Spotify *Updated*",
+            "description": "The 100 most streamed songs on Spotify ever, in correct order (last updated May 3:rd 2024)",
+            "images": {
+              "items": [
+                {
+                  "sources": [
+                    {
+                      "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8482a04c37e7ae0d899edb198e",
+                      "width": null,
+                      "height": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "owner": {
+              "name": "hoolgerssson"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:playlist:32rZjFEjzKMNzHH3RyHBsP",
+            "name": "blinding lights covers.",
+            "description": "the best covers of blinding lights. this songs are addicted!",
+            "images": {
+              "items": [
+                {
+                  "sources": [
+                    {
+                      "url": "https://mosaic.scdn.co/640/ab67616d00001e0209150b7a63110b760bd4a366ab67616d00001e028863bc11d2aa12b54f5aeb36ab67616d00001e02ecc12eb5e90430314bad2d18ab67616d00001e02ed5203bde14345429d66e8a3",
+                      "width": 640,
+                      "height": 640
+                    },
+                    {
+                      "url": "https://mosaic.scdn.co/300/ab67616d00001e0209150b7a63110b760bd4a366ab67616d00001e028863bc11d2aa12b54f5aeb36ab67616d00001e02ecc12eb5e90430314bad2d18ab67616d00001e02ed5203bde14345429d66e8a3",
+                      "width": 300,
+                      "height": 300
+                    },
+                    {
+                      "url": "https://mosaic.scdn.co/60/ab67616d00001e0209150b7a63110b760bd4a366ab67616d00001e028863bc11d2aa12b54f5aeb36ab67616d00001e02ecc12eb5e90430314bad2d18ab67616d00001e02ed5203bde14345429d66e8a3",
+                      "width": 60,
+                      "height": 60
+                    }
+                  ]
+                }
+              ]
+            },
+            "owner": {
+              "name": "joannagraces"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:playlist:2bsmfC2W7l4lbLOLz01AOk",
+            "name": "Blinding Lights - The Weekend",
+            "description": "Blinding Lights - The Weekend | New Album Of The Weekend",
+            "images": {
+              "items": [
+                {
+                  "sources": [
+                    {
+                      "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84931b132c09f01479a7c625aa",
+                      "width": null,
+                      "height": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "owner": {
+              "name": "Louis Peschet"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:playlist:37i9dQZF1E8PQmPvyZ7gDk",
+            "name": "Blinding Lights (with ROSALÍA) - Remix Radio",
+            "description": "With The Weeknd, The Neighbourhood, SZA and more",
+            "images": {
+              "items": [
+                {
+                  "sources": [
+                    {
+                      "url": "https://seeded-session-images.scdn.co/v2/img/122/secondary/track/7MXgrcOQAJ5VwSNUL0lDd3/en",
+                      "width": null,
+                      "height": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "owner": {
+              "name": "Spotify"
+            }
+          }
+        }
+      ]
+    },
+    "podcasts": {
+      "totalCount": 10,
+      "items": [
+        {
+          "data": {
+            "uri": "spotify:show:3ZKMZ5ZBv2zlGZxapEIJLT",
+            "name": "Blinding Lights",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68da178d6666b3fdbbffa48dd91",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1fa178d6666b3fdbbffa48dd91",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8aa178d6666b3fdbbffa48dd91",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "type": "PODCAST",
+            "publisher": {
+              "name": "Quiet. Please"
+            },
+            "mediaType": "AUDIO"
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:show:3TzOqFaF9OLclgVwwWDmFT",
+            "name": "Blinded By The Item",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68d776ba17971b2bf1d0aad98ba",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1f776ba17971b2bf1d0aad98ba",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8a776ba17971b2bf1d0aad98ba",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "type": "PODCAST",
+            "publisher": {
+              "name": "myTalk Studios"
+            },
+            "mediaType": "AUDIO"
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:show:3BNbOP7AxHjKlknEayD1R0",
+            "name": "Blinding Lights",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68d6e5f6e13d27eb0893008acce",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1f6e5f6e13d27eb0893008acce",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8a6e5f6e13d27eb0893008acce",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "type": "PODCAST",
+            "publisher": {
+              "name": "Pocket FM"
+            },
+            "mediaType": "AUDIO"
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:show:4equqMQjOB95uqG1loutZq",
+            "name": "Mosskito PODCASTS",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68d283f961a28db2ea0058ed0e7",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1f283f961a28db2ea0058ed0e7",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8a283f961a28db2ea0058ed0e7",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "type": "PODCAST",
+            "publisher": {
+              "name": "Imosskito"
+            },
+            "mediaType": "AUDIO"
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:show:4inM2nkBgkOg8XIlqFuoE3",
+            "name": "Blinded by the Light",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68dfc512b1fa4e605fc55ac3860",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1ffc512b1fa4e605fc55ac3860",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8afc512b1fa4e605fc55ac3860",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "type": "PODCAST",
+            "publisher": {
+              "name": "Blinded by the Light"
+            },
+            "mediaType": "AUDIO"
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:show:6lUs5XpwyGgW1EYa5ykuxp",
+            "name": "Solace Within Chaos",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68d72a21aadf387a324d6fa1a2f",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1f72a21aadf387a324d6fa1a2f",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8a72a21aadf387a324d6fa1a2f",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "type": "PODCAST",
+            "publisher": {
+              "name": "Kit Jugadora"
+            },
+            "mediaType": "AUDIO"
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:show:7H7Pe8EWMEgO84Mzlkt1qN",
+            "name": "Blindingly Obvious  The Audiobook Series",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68dd39de04d7d9d71b59a4ee040",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1fd39de04d7d9d71b59a4ee040",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8ad39de04d7d9d71b59a4ee040",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "type": "PODCAST",
+            "publisher": {
+              "name": "Minnie Baragwanath"
+            },
+            "mediaType": "AUDIO"
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:show:4geDO4Msp3WaJk3qFglE0l",
+            "name": "Fanfics, Fofocas e Outras Coisas Lindas",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68dfd453291e26b1ef12c93fb8e",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1ffd453291e26b1ef12c93fb8e",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8afd453291e26b1ef12c93fb8e",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "type": "PODCAST",
+            "publisher": {
+              "name": "Laís Silva Costa"
+            },
+            "mediaType": "AUDIO"
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:show:2HuVYheAA5TWzBuGKhSshE",
+            "name": "Blindingly Ordinary, by Joshua Karthik",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/a35b8f29480912ce8f2f0607fe515964f60d09a5",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/91f8393b088a80fb09e7ff48fb00b730b6ef2d10",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/6cc1cac4f966b2d4813a8716de13ecddb13aeeec",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "type": "PODCAST",
+            "publisher": {
+              "name": "Joshua Karthik R"
+            },
+            "mediaType": "AUDIO"
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:show:3CGq82MmaJk6BzBZNY6Yl5",
+            "name": "Those Were The Days",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/4c0d7487d7ea68e80e3975a0b05801a26825366b",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/8f02328b52a2b28b1ed19a07f03f7e7f353aae27",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/4a52efe5619fa0692ccc3517d87c49833ace6821",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "type": "PODCAST",
+            "publisher": {
+              "name": "Ganga Hostel"
+            },
+            "mediaType": "AUDIO"
+          }
+        }
+      ]
+    },
+    "topResults": {
+      "items": [
+        {
+          "data": {
+            "uri": "spotify:track:0VjIjW4GlUZAMYd2vXMi3b",
+            "id": "0VjIjW4GlUZAMYd2vXMi3b",
+            "name": "Blinding Lights",
+            "albumOfTrack": {
+              "uri": "spotify:album:4yP0hdKOZPNshxUOjY0cZj",
+              "name": "After Hours",
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00001e028863bc11d2aa12b54f5aeb36",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d000048518863bc11d2aa12b54f5aeb36",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2738863bc11d2aa12b54f5aeb36",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              },
+              "id": "4yP0hdKOZPNshxUOjY0cZj",
+              "sharingInfo": {
+                "shareUrl": "https://open.spotify.com/album/4yP0hdKOZPNshxUOjY0cZj?si=KgxSUux8TGmSiwzQaWacWw"
+              }
+            },
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:1Xyo4u8uXC1ZmMpatF05PJ",
+                  "profile": {
+                    "name": "The Weeknd"
+                  }
+                }
+              ]
+            },
+            "contentRating": {
+              "label": "NONE"
+            },
+            "duration": {
+              "totalMilliseconds": 200040
+            },
+            "playability": {
+              "playable": true
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:track:6cRJTmba0JHDquftAkxUgG",
+            "id": "6cRJTmba0JHDquftAkxUgG",
+            "name": "Blinding Lights - Country Version",
+            "albumOfTrack": {
+              "uri": "spotify:album:2xdFoFzJDYziRnia2PBEgt",
+              "name": "Blinding Lights (Country Version)",
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00001e0230a7da693427ed4c700b9734",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000485130a7da693427ed4c700b9734",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000b27330a7da693427ed4c700b9734",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              },
+              "id": "2xdFoFzJDYziRnia2PBEgt",
+              "sharingInfo": {
+                "shareUrl": "https://open.spotify.com/album/2xdFoFzJDYziRnia2PBEgt?si=iL41hxWnSiaNQjLtdh-PzA"
+              }
+            },
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:2S0WpGRnEPyS5OuMp3KOEo",
+                  "profile": {
+                    "name": "Tebey"
+                  }
+                }
+              ]
+            },
+            "contentRating": {
+              "label": "NONE"
+            },
+            "duration": {
+              "totalMilliseconds": 186008
+            },
+            "playability": {
+              "playable": true
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:track:02nMYbIiYIzaFA3D3Bkn6W",
+            "id": "02nMYbIiYIzaFA3D3Bkn6W",
+            "name": "Blinding Lights",
+            "albumOfTrack": {
+              "uri": "spotify:album:5eU8DCQKzpinsnzAAJwlbf",
+              "name": "KIDZ BOP 2021",
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00001e0230fa390d61b3d1d05aabe1fa",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000485130fa390d61b3d1d05aabe1fa",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000b27330fa390d61b3d1d05aabe1fa",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              },
+              "id": "5eU8DCQKzpinsnzAAJwlbf",
+              "sharingInfo": {
+                "shareUrl": "https://open.spotify.com/album/5eU8DCQKzpinsnzAAJwlbf?si=FJ_5s9RlQMWBEoWRnRS17w"
+              }
+            },
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:1Vvvx45Apu6dQqwuZQxtgW",
+                  "profile": {
+                    "name": "Kidz Bop Kids"
+                  }
+                }
+              ]
+            },
+            "contentRating": {
+              "label": "NONE"
+            },
+            "duration": {
+              "totalMilliseconds": 179247
+            },
+            "playability": {
+              "playable": true
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:artist:2S0WpGRnEPyS5OuMp3KOEo",
+            "profile": {
+              "name": "Tebey"
+            },
+            "visuals": {
+              "avatarImage": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb2994f709c04da5bd8cf00a90",
+                    "width": 640,
+                    "height": 640
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab6761610000f1782994f709c04da5bd8cf00a90",
+                    "width": 160,
+                    "height": 160
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab676161000051742994f709c04da5bd8cf00a90",
+                    "width": 320,
+                    "height": 320
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:playlist:1c68Ghwf0O3w4FPuAlZU5q",
+            "name": "blinding lights 1 hour",
+            "description": "blinding lights by the weeknd only 1 hour loop (but its a little more than 1 hour but i will go with it) also pls follow me!!!",
+            "images": {
+              "items": [
+                {
+                  "sources": [
+                    {
+                      "url": "https://mosaic.scdn.co/640/ab67616d00001e027f2ad807a1247ce2b1c4ae38ab67616d00001e0281a3bb9348718b9703364c1cab67616d00001e02b15808aaebd02a5046cdf13fab67616d00001e02c464fabb4e51b72d657f779a",
+                      "width": 640,
+                      "height": 640
+                    },
+                    {
+                      "url": "https://mosaic.scdn.co/300/ab67616d00001e027f2ad807a1247ce2b1c4ae38ab67616d00001e0281a3bb9348718b9703364c1cab67616d00001e02b15808aaebd02a5046cdf13fab67616d00001e02c464fabb4e51b72d657f779a",
+                      "width": 300,
+                      "height": 300
+                    },
+                    {
+                      "url": "https://mosaic.scdn.co/60/ab67616d00001e027f2ad807a1247ce2b1c4ae38ab67616d00001e0281a3bb9348718b9703364c1cab67616d00001e02b15808aaebd02a5046cdf13fab67616d00001e02c464fabb4e51b72d657f779a",
+                      "width": 60,
+                      "height": 60
+                    }
+                  ]
+                }
+              ]
+            },
+            "owner": {
+              "name": "ㅤ"
+            }
+          }
+        }
+      ],
+      "featured": [
+        {
+          "data": {
+            "uri": "spotify:playlist:37i9dQZF1DZ06evO1EDpuN",
+            "name": "This Is Tebey",
+            "description": "This is Tebey. The essential tracks, all in one playlist.",
+            "images": {
+              "items": [
+                {
+                  "sources": [
+                    {
+                      "url": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO1EDpuN-default.jpg",
+                      "width": null,
+                      "height": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "owner": {
+              "name": "Spotify"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:playlist:37i9dQZF1E4pfmNE22tVQ7",
+            "name": "Tebey Radio",
+            "description": "With Jojo Mason, Chad Brownlee, The Washboard Union and more",
+            "images": {
+              "items": [
+                {
+                  "sources": [
+                    {
+                      "url": "https://seeded-session-images.scdn.co/v2/img/122/secondary/artist/2S0WpGRnEPyS5OuMp3KOEo/en",
+                      "width": null,
+                      "height": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "owner": {
+              "name": "Spotify"
+            }
+          }
+        }
+      ]
+    },
+    "tracks": {
+      "totalCount": 810,
+      "items": [
+        {
+          "data": {
+            "uri": "spotify:track:0VjIjW4GlUZAMYd2vXMi3b",
+            "id": "0VjIjW4GlUZAMYd2vXMi3b",
+            "name": "Blinding Lights",
+            "albumOfTrack": {
+              "uri": "spotify:album:4yP0hdKOZPNshxUOjY0cZj",
+              "name": "After Hours",
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00001e028863bc11d2aa12b54f5aeb36",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d000048518863bc11d2aa12b54f5aeb36",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2738863bc11d2aa12b54f5aeb36",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              },
+              "id": "4yP0hdKOZPNshxUOjY0cZj",
+              "sharingInfo": {
+                "shareUrl": "https://open.spotify.com/album/4yP0hdKOZPNshxUOjY0cZj?si=BvSTKOCMQyq-LpIZ1FiOVg"
+              }
+            },
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:1Xyo4u8uXC1ZmMpatF05PJ",
+                  "profile": {
+                    "name": "The Weeknd"
+                  }
+                }
+              ]
+            },
+            "contentRating": {
+              "label": "NONE"
+            },
+            "duration": {
+              "totalMilliseconds": 200040
+            },
+            "playability": {
+              "playable": true
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:track:6cRJTmba0JHDquftAkxUgG",
+            "id": "6cRJTmba0JHDquftAkxUgG",
+            "name": "Blinding Lights - Country Version",
+            "albumOfTrack": {
+              "uri": "spotify:album:2xdFoFzJDYziRnia2PBEgt",
+              "name": "Blinding Lights (Country Version)",
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00001e0230a7da693427ed4c700b9734",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000485130a7da693427ed4c700b9734",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000b27330a7da693427ed4c700b9734",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              },
+              "id": "2xdFoFzJDYziRnia2PBEgt",
+              "sharingInfo": {
+                "shareUrl": "https://open.spotify.com/album/2xdFoFzJDYziRnia2PBEgt?si=6tkjmYfjQvOJZtB89itzHw"
+              }
+            },
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:2S0WpGRnEPyS5OuMp3KOEo",
+                  "profile": {
+                    "name": "Tebey"
+                  }
+                }
+              ]
+            },
+            "contentRating": {
+              "label": "NONE"
+            },
+            "duration": {
+              "totalMilliseconds": 186008
+            },
+            "playability": {
+              "playable": true
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:track:02nMYbIiYIzaFA3D3Bkn6W",
+            "id": "02nMYbIiYIzaFA3D3Bkn6W",
+            "name": "Blinding Lights",
+            "albumOfTrack": {
+              "uri": "spotify:album:5eU8DCQKzpinsnzAAJwlbf",
+              "name": "KIDZ BOP 2021",
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00001e0230fa390d61b3d1d05aabe1fa",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000485130fa390d61b3d1d05aabe1fa",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000b27330fa390d61b3d1d05aabe1fa",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              },
+              "id": "5eU8DCQKzpinsnzAAJwlbf",
+              "sharingInfo": {
+                "shareUrl": "https://open.spotify.com/album/5eU8DCQKzpinsnzAAJwlbf?si=Ix_ErRznSUuibZIIt9rL5Q"
+              }
+            },
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:1Vvvx45Apu6dQqwuZQxtgW",
+                  "profile": {
+                    "name": "Kidz Bop Kids"
+                  }
+                }
+              ]
+            },
+            "contentRating": {
+              "label": "NONE"
+            },
+            "duration": {
+              "totalMilliseconds": 179247
+            },
+            "playability": {
+              "playable": true
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:track:6qYkmqFsXbj8CQjAdbYz07",
+            "id": "6qYkmqFsXbj8CQjAdbYz07",
+            "name": "Blinding Lights",
+            "albumOfTrack": {
+              "uri": "spotify:album:3sL9Myf7JF1k9TbrXE46ou",
+              "name": "Blinding Lights",
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02a3eff72f62782fb589a492f9",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00004851a3eff72f62782fb589a492f9",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273a3eff72f62782fb589a492f9",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              },
+              "id": "3sL9Myf7JF1k9TbrXE46ou",
+              "sharingInfo": {
+                "shareUrl": "https://open.spotify.com/album/3sL9Myf7JF1k9TbrXE46ou?si=lr4auwEDT1Sul56FzOE0Sg"
+              }
+            },
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:1Xyo4u8uXC1ZmMpatF05PJ",
+                  "profile": {
+                    "name": "The Weeknd"
+                  }
+                }
+              ]
+            },
+            "contentRating": {
+              "label": "NONE"
+            },
+            "duration": {
+              "totalMilliseconds": 200045
+            },
+            "playability": {
+              "playable": true
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:track:66aMnwdhkEc1V0AAnyYchX",
+            "id": "66aMnwdhkEc1V0AAnyYchX",
+            "name": "Blinding Lights",
+            "albumOfTrack": {
+              "uri": "spotify:album:4vh9LW3igRT6NayBnmb8fZ",
+              "name": "Blinding Lights",
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02a9e822d72b4b822e80e8f9bc",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00004851a9e822d72b4b822e80e8f9bc",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273a9e822d72b4b822e80e8f9bc",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              },
+              "id": "4vh9LW3igRT6NayBnmb8fZ",
+              "sharingInfo": {
+                "shareUrl": "https://open.spotify.com/album/4vh9LW3igRT6NayBnmb8fZ?si=xQFooajQSHqD8R__HfiYcQ"
+              }
+            },
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:33qOK5uJ8AR2xuQQAhHump",
+                  "profile": {
+                    "name": "Teddy Swims"
+                  }
+                }
+              ]
+            },
+            "contentRating": {
+              "label": "NONE"
+            },
+            "duration": {
+              "totalMilliseconds": 214874
+            },
+            "playability": {
+              "playable": true
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:track:0wI0S42Cg41DVGqIIVimTM",
+            "id": "0wI0S42Cg41DVGqIIVimTM",
+            "name": "Blinding Lights",
+            "albumOfTrack": {
+              "uri": "spotify:album:1RinMQThKCHcrk6hMf6QiN",
+              "name": "Blinding Lights",
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02c9616e0194505800d88627a9",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00004851c9616e0194505800d88627a9",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273c9616e0194505800d88627a9",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              },
+              "id": "1RinMQThKCHcrk6hMf6QiN",
+              "sharingInfo": {
+                "shareUrl": "https://open.spotify.com/album/1RinMQThKCHcrk6hMf6QiN?si=EYiIor7GRcONK06c5POxyw"
+              }
+            },
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:7KigP1NA8s7IiVIxP5ndwJ",
+                  "profile": {
+                    "name": "Revelries"
+                  }
+                },
+                {
+                  "uri": "spotify:artist:2o1DwIg0eMGpA5m6zLLG2I",
+                  "profile": {
+                    "name": "Victoria Voss"
+                  }
+                }
+              ]
+            },
+            "contentRating": {
+              "label": "NONE"
+            },
+            "duration": {
+              "totalMilliseconds": 176406
+            },
+            "playability": {
+              "playable": true
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:track:1nJOzQiAY0d9YGopbYlQsr",
+            "id": "1nJOzQiAY0d9YGopbYlQsr",
+            "name": "Blinding Lights",
+            "albumOfTrack": {
+              "uri": "spotify:album:3Bp4QzJlhnqgJ5CW9zfEo7",
+              "name": "Blinding Lights",
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00001e0273aa56f1d6235e36159bc147",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000485173aa56f1d6235e36159bc147",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000b27373aa56f1d6235e36159bc147",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              },
+              "id": "3Bp4QzJlhnqgJ5CW9zfEo7",
+              "sharingInfo": {
+                "shareUrl": "https://open.spotify.com/album/3Bp4QzJlhnqgJ5CW9zfEo7?si=-8Ylr5OTS7aQl28bqaxPCA"
+              }
+            },
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:6Fwq3TDWpMhcL1KTKVQiI8",
+                  "profile": {
+                    "name": "Saint Asonia"
+                  }
+                }
+              ]
+            },
+            "contentRating": {
+              "label": "NONE"
+            },
+            "duration": {
+              "totalMilliseconds": 183357
+            },
+            "playability": {
+              "playable": true
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:track:0ozyv9adSVDED8Emhd8hfu",
+            "id": "0ozyv9adSVDED8Emhd8hfu",
+            "name": "Blinding Lights - Piano Version",
+            "albumOfTrack": {
+              "uri": "spotify:album:2ektqBOgstESA5KX3CxdYU",
+              "name": "Blinding Lights (Piano Version)",
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02bcb1217a9c721923eaceeb16",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00004851bcb1217a9c721923eaceeb16",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273bcb1217a9c721923eaceeb16",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              },
+              "id": "2ektqBOgstESA5KX3CxdYU",
+              "sharingInfo": {
+                "shareUrl": "https://open.spotify.com/album/2ektqBOgstESA5KX3CxdYU?si=n_AO0SsjS_SOesmvnfTcYQ"
+              }
+            },
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:1jUIOsS9vK91Nc9qYvpEab",
+                  "profile": {
+                    "name": "Flying Fingers"
+                  }
+                },
+                {
+                  "uri": "spotify:artist:4Xx6QMLTWppMwdABkN0Afj",
+                  "profile": {
+                    "name": "Piano Tribute Players"
+                  }
+                }
+              ]
+            },
+            "contentRating": {
+              "label": "NONE"
+            },
+            "duration": {
+              "totalMilliseconds": 121000
+            },
+            "playability": {
+              "playable": true
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:track:2p8SNXT4gMgqmKuI2u7mrv",
+            "id": "2p8SNXT4gMgqmKuI2u7mrv",
+            "name": "Blinding Lights - Country Version",
+            "albumOfTrack": {
+              "uri": "spotify:album:0JP8g1cQv5P4SZPkoseoHM",
+              "name": "Blinding Lights (Country Version)",
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02eca3c3bdf5cfccd1ef19a300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00004851eca3c3bdf5cfccd1ef19a300",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273eca3c3bdf5cfccd1ef19a300",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              },
+              "id": "0JP8g1cQv5P4SZPkoseoHM",
+              "sharingInfo": {
+                "shareUrl": "https://open.spotify.com/album/0JP8g1cQv5P4SZPkoseoHM?si=0DP_71wXTn-ehHGYcZnBaw"
+              }
+            },
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:1DhQ0p333jod96LN2n2Yqf",
+                  "profile": {
+                    "name": "Texas Hammer"
+                  }
+                }
+              ]
+            },
+            "contentRating": {
+              "label": "NONE"
+            },
+            "duration": {
+              "totalMilliseconds": 200832
+            },
+            "playability": {
+              "playable": true
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:track:6KA5F67BBU58vl3D77C1Hj",
+            "id": "6KA5F67BBU58vl3D77C1Hj",
+            "name": "Blinding Lights",
+            "albumOfTrack": {
+              "uri": "spotify:album:4UJoOUbGvNVzMOzgmWHEAZ",
+              "name": "Kids Classroom Birthday Party",
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00001e020458604227895942cf865625",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d000048510458604227895942cf865625",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2730458604227895942cf865625",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              },
+              "id": "4UJoOUbGvNVzMOzgmWHEAZ",
+              "sharingInfo": {
+                "shareUrl": "https://open.spotify.com/album/4UJoOUbGvNVzMOzgmWHEAZ?si=RygCwgjxQfK4PcBvzw21MA"
+              }
+            },
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:1Vvvx45Apu6dQqwuZQxtgW",
+                  "profile": {
+                    "name": "Kidz Bop Kids"
+                  }
+                }
+              ]
+            },
+            "contentRating": {
+              "label": "NONE"
+            },
+            "duration": {
+              "totalMilliseconds": 180666
+            },
+            "playability": {
+              "playable": true
+            }
+          }
+        }
+      ]
+    },
+    "users": {
+      "totalCount": 7,
+      "items": [
+        {
+          "data": {
+            "uri": "spotify:user:0lzqc2j48lqqlb5mqunzedqm1",
+            "id": "0lzqc2j48lqqlb5mqunzedqm1",
+            "displayName": "blinding lights",
+            "username": "0lzqc2j48lqqlb5mqunzedqm1",
+            "image": {
+              "smallImageUrl": null,
+              "largeImageUrl": null
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:user:63izip8mx571smqgcoo4upy6a",
+            "id": "63izip8mx571smqgcoo4upy6a",
+            "displayName": "Blinding Lights",
+            "username": "63izip8mx571smqgcoo4upy6a",
+            "image": {
+              "smallImageUrl": "https://i.scdn.co/image/ab67757000003b82afa7a415570d34c2d162ff56",
+              "largeImageUrl": "https://i.scdn.co/image/ab6775700000ee85afa7a415570d34c2d162ff56"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:user:k16fm4lqt6atw8t1k5so4m1aw",
+            "id": "k16fm4lqt6atw8t1k5so4m1aw",
+            "displayName": "Blinding Lights",
+            "username": "k16fm4lqt6atw8t1k5so4m1aw",
+            "image": {
+              "smallImageUrl": "https://i.scdn.co/image/ab67757000003b828da4a8f19f361185ad5b51da",
+              "largeImageUrl": "https://i.scdn.co/image/ab6775700000ee858da4a8f19f361185ad5b51da"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:user:31cbedw2iav247sj35km3rbelnhi",
+            "id": "31cbedw2iav247sj35km3rbelnhi",
+            "displayName": "Blinding Lights",
+            "username": "31cbedw2iav247sj35km3rbelnhi",
+            "image": {
+              "smallImageUrl": null,
+              "largeImageUrl": null
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:user:31lc2s6y5ki56ehmfg2ipnlsssoi",
+            "id": "31lc2s6y5ki56ehmfg2ipnlsssoi",
+            "displayName": "Blinding lights",
+            "username": "31lc2s6y5ki56ehmfg2ipnlsssoi",
+            "image": {
+              "smallImageUrl": null,
+              "largeImageUrl": null
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:user:31tujmhdk7efe6qeqykrf5ma2dey",
+            "id": "31tujmhdk7efe6qeqykrf5ma2dey",
+            "displayName": "THoMas HBG blinding lights",
+            "username": "31tujmhdk7efe6qeqykrf5ma2dey",
+            "image": {
+              "smallImageUrl": null,
+              "largeImageUrl": null
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:user:31fmh2skx2o7jqdw5aapmud2qg5q",
+            "id": "31fmh2skx2o7jqdw5aapmud2qg5q",
+            "displayName": "Blinding_lights_hori",
+            "username": "31fmh2skx2o7jqdw5aapmud2qg5q",
+            "image": {
+              "smallImageUrl": null,
+              "largeImageUrl": null
+            }
+          }
+        }
+      ]
+    }
+  }

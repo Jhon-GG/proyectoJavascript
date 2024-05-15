@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="module" src="js/main.js"></script>
+    <script type="module" src="js/main.js" ></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="storage/img/spotifyIcon.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,8 +19,12 @@
             </header>
             <figure id="left_topChart" class="left_topChart">
                 <div class="left_search">
-                    <form class="form">
-                        <label for="search">
+                    <form id="left_form" class="form">
+
+                    <!-- ------------------------ LINE SEARCH ---------------------- -->
+
+                        <album-filter></album-filter>
+                        <!-- <label for="search">
                             <input class="input" type="text" required="" placeholder="What do you want to listen to?" id="search">
                             <div class="fancy-bg"></div>
                             <div class="search">
@@ -35,48 +39,82 @@
                                     <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
                                 </svg>
                             </button>
-                        </label>
+                        </label> -->
                     </form>
                 </div>
+
+                <!-- ----------------------------- ALBUMS LISTS ------------------------- -->
+
             </figure>
-            <section class="left_baseAlbum">
+            <album-info></album-info>
+            <album-info2></album-info2>
+            <!-- <section class="left_baseAlbum">
                 <div class="left_album">
                     <div class="left_albumContent">
-                        <img src="storage/img/album.png" alt="album">
-                        <h2>Blinding Lights</h2>
+                        <a href=""><img src="storage/img/album.png" alt="album"></a>
+                        <h2>After Hours</h2>
                         <p>The weeknd</p>
                     </div>
                 </div>
                 <div class="left_album2">
                     <div class="left_albumContent">
-                        <img src="storage/img/album.png" alt="album">
-                        <h2>Blinding Lights</h2>
-                        <p>The Weeknd</p>
+                        <img src="storage/img/album2.png" alt="album">
+                        <h2>Suicide Squad</h2>
+                        <p>Various Artists</p>
                     </div>
                 </div>
             </section>
             <section class="left_baseAlbum2">
                 <div class="left_album">
                     <div class="left_albumContent">
-                        <img src="storage/img/album.png" alt="album">
-                        <h2>Blinding Lights</h2>
-                        <p>The weeknd</p>
+                        <img src="storage/img/album3.png" alt="album">
+                        <h2>Exodus</h2>
+                        <p>Exo</p>
                     </div>
                 </div>
                 <div class="left_album2">
                     <div class="left_albumContent">
-                        <img src="storage/img/album.png" alt="album">
-                        <h2>Blinding Lights</h2>
-                        <p>The Weeknd</p>
+                        <img src="storage/img/album4.png" alt="album">
+                        <h2>Blurryface</h2>
+                        <p>Twenty One Pilots</p>
                     </div>
                 </div>
-            </section>
+            </section> -->
+
+            <!-- --------------------- LIST OF YOU MAY LIKE ----------------------------- -->
+
             <section class="left_youMayLike">
                 <div class="left_youMayLikeTitle">
                     <h2>You May Like</h1>
                 </div>
             </section>
             <section class="left_youMayLikeList">
+                <div class="left_youMayLikeListBoxes">
+                    <div class="left_youMayLikeListImg">
+                        <img src="storage/img/yatra.png" alt="list">
+                    </div>
+                    <div class="left_youMayLikeListDescription">
+                        <h3>Mantra</h3>
+                        <p>Sebastian Yatra</p>
+                    </div>
+                    <div class="left_youMayLikeListTime">
+                        <h3>3:28</h3>
+                        <p>2018</p>                        
+                    </div>
+                </div>
+                <div class="left_youMayLikeListBoxes">
+                    <div class="left_youMayLikeListImg">
+                        <img src="storage/img/yatra.png" alt="list">
+                    </div>
+                    <div class="left_youMayLikeListDescription">
+                        <h3>Mantra</h3>
+                        <p>Sebastian Yatra</p>
+                    </div>
+                    <div class="left_youMayLikeListTime">
+                        <h3>3:28</h3>
+                        <p>2018</p>                        
+                    </div>
+                </div>
                 <div class="left_youMayLikeListBoxes">
                     <div class="left_youMayLikeListImg">
                         <img src="storage/img/yatra.png" alt="list">
@@ -150,7 +188,7 @@
             </header>
             <div class="frame__box">
                 <div class="frame_boxPosition">
-                    <my-frame class= "section_middleFrame"uri="spotify:track:0ct6r3EGTcMLPtrXHDvVjc"></my-frame>
+                    <my-frame id="section_middleFrame" class= "section_middleFrame"uri="spotify:track:6L89mwZXSOwYl76YXfX13s"></my-frame>
                 </div>
             </div>
             <figure id="middle_topChart" class="middle_topChart">

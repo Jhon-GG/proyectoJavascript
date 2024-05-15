@@ -1,3 +1,8 @@
+import './modules/input.js';
+import './modules/album.js';
+
+
+
 // -------------------- COMPONENTE DE SPOTIFY RAPIDAPI ------------------------------
 
 class myframe extends HTMLElement{
@@ -11,7 +16,6 @@ class myframe extends HTMLElement{
         this.shadowRoot.innerHTML = /*html*/`
             <iframe class="spotify-iframe" width="100%" height="50%" src="https://open.spotify.com/embed/track/${this.id}" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>       
         `
-        
     }
     
     static get observedAttributes(){
