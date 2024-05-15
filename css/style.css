@@ -56,7 +56,7 @@ body, html{
 .left_header{
     display: flex;   
     width: 100%;
-    height: 17%;
+    height: 13%;
     font-size: 200%;
     /* border: 1px solid yellow; */
 }
@@ -288,8 +288,13 @@ body, html{
 
   .left_albumContent h2{
     display: flex;
-    font-size: 120%;
+    font-size: 100%;
+    align-items: center;
+    height: 70%;
+    width:100%;
     margin-top: 3%;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
 
   .left_albumContent p{
@@ -309,6 +314,7 @@ body, html{
     height: 5vh;
     margin-top:2.5%;
     align-items: center;
+    margin-top: 8%;
   }
 
   .left_youMayLikeTitle{
