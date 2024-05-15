@@ -1,251 +1,54 @@
-class AlbumInfo extends HTMLElement {
+class AlbumImages extends HTMLElement {
     constructor() {
         super();
-        this.attachShadow({ mode: 'open' });
     }
 
-    connectedCallback() {
-        this.render();
-    }
+    async connectedCallback() {
+        const loadAlbums = async (base, index) => {
+            const codeBase = base.replace(/\s/g, '%20');
 
-    render() {
-        this.shadowRoot.innerHTML = `
-            <style>
-            .left_baseAlbum{
-                display: flex;
-                flex-direction: row;
-                /* border: 1px solid purple; */
-                width: 100%;
-                justify-content: baseline;
-                align-items: center;
-                height: 25vh;
-                margin-top: 3%;
-              }
-            
-              .left_baseAlbum:hover{
-                cursor: pointer;
-              }
-            
-              .left_baseAlbum2{
-                display: flex;
-                flex-direction: row;
-                /* border: 1px solid purple; */
-                width: 100%;
-                justify-content: baseline;
-                align-items: center;
-                height: 25vh;
-                margin-top: 4%;
-              }
-            
-              .left_albumContent:hover{
-                cursor: pointer;
-                border-radius: 5%;
-                border: 1px solid rgba(255, 255, 255, 0.205);
-              }
-            
-              .left_album2:hover{
-                cursor: pointer;
-              }
-            
-              .left_album{
-                display: flex;
-                flex-direction: row;
-                /* border: 1px solid lightblue; */
-                justify-content: center;
-                align-items: flex-start;
-                padding: 0;
-                width: 40%;
-                height: 25vh;
-                margin-left: 7%;
-              }
-            
-              .left_album2{
-                display: flex;
-                flex-direction: row;
-                /* border: 1px solid lightblue; */
-                justify-content: center;
-                align-items: flex-start;
-                padding: 0;
-                width: 40%;
-                height: 25vh;
-                margin-left: 6%;
-              }
-            
-              .left_albumContent{
-                display: flex;
-                flex-direction: column;
-              }
-            
-              .left_albumContent img{
-                display: flex;
-                width: 100%;
-                height: 50%;
-                border-radius: 5%;
-                justify-content: center;
-                align-items: center;
-                padding: 0;
-                margin: 0;
-              }
-            
-              .left_albumContent h2{
-                display: flex;
-                font-size: 120%;
-                margin-top: 3%;
-              }
-            
-              .left_albumContent p{
-                display: flex;
-                margin-top: -9%;
-                font-size: 90%;
-                color: #949faa;
-              }
-            </style>
-            <section class="left_baseAlbum">
-                <div class="left_album">
-                    <div id="album" class="left_albumContent">
-                        <img src="storage/img/album.png" alt="album">
-                        <h2>After Hours</h2>
-                        <p>The weeknd</p>
-                    </div>
-                </div>
-                <div class="left_album2">
-                    <div class="left_albumContent">
-                        <img id="album2" src="storage/img/album2.png" alt="album">
-                        <h2>Suicide Squad</h2>
-                        <p>Various Artists</p>
-                    </div>
-                </div>
-            </section>
-        `;
+            const url = `https://spotify23.p.rapidapi.com/search/?q=${codeBase}&type=albums&offset=0&limit=10&numberOfTopResults=5`;
+            const options = {
+                method: 'GET',
+                headers: {
+                    'X-RapidAPI-Key': 'acb43109b6mshc9eab249c543982p1a73ebjsn761f13870e57',
+                    'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
+                }
+            };
+
+            try {
+                const response = await fetch(url, options);
+                const result = await response.json();
+
+                if (result.albums.items.length > index) {
+                    const albumData = result.albums.items[index].data;
+                    if (albumData && albumData.coverArt && albumData.coverArt.sources.length > 0) {
+                        const primeraUrl = albumData.coverArt.sources[0].url;
+                        const uri = albumData.uri;
+                        const id = uri.split(':')[2];
+                        this.innerHTML = `
+                            <img id="album__${index + 1}" src="${primeraUrl}" alt="" data-id="${id}">
+                        `;
+
+                        this.querySelector('img').addEventListener('click', () => {
+                            const myFrame = document.querySelector('.main__frame');
+                            myFrame.setAttribute('uri', `spotify:album:${id}`);
+                            const AlbumTracksComponent = document.querySelector('.trackList');
+                            AlbumTracksComponent.setAttribute('uri', `spotify:album:${id}`);
+                        });
+                    }
+                }
+            } catch (error) {
+                console.error(error);
+            }
+        };
+
+        const index = parseInt(this.getAttribute('index')) || 0;
+        loadAlbums('maneskin', index);
     }
 }
 
-customElements.define('album-info', AlbumInfo);
-
-class AlbumInfo2 extends HTMLElement {
-    constructor() {
-        super();
-        this.attachShadow({ mode: 'open' });
-    }
-
-    connectedCallback() {
-        this.render();
-    }
-
-    render() {
-        this.shadowRoot.innerHTML = `
-            <style>
-            .left_baseAlbum{
-                display: flex;
-                flex-direction: row;
-                /* border: 1px solid purple; */
-                width: 100%;
-                justify-content: baseline;
-                align-items: center;
-                height: 25vh;
-                margin-top: 3%;
-              }
-            
-              .left_baseAlbum:hover{
-                cursor: pointer;
-              }
-            
-              .left_baseAlbum2{
-                display: flex;
-                flex-direction: row;
-                /* border: 1px solid purple; */
-                width: 100%;
-                justify-content: baseline;
-                align-items: center;
-                height: 25vh;
-                margin-top: 4%;
-              }
-            
-              .left_albumContent:hover{
-                cursor: pointer;
-                border-radius: 5%;
-                border: 1px solid rgba(255, 255, 255, 0.205);
-              }
-            
-              .left_album2:hover{
-                cursor: pointer;
-              }
-            
-              .left_album{
-                display: flex;
-                flex-direction: row;
-                /* border: 1px solid lightblue; */
-                justify-content: center;
-                align-items: flex-start;
-                padding: 0;
-                width: 40%;
-                height: 25vh;
-                margin-left: 7%;
-              }
-            
-              .left_album2{
-                display: flex;
-                flex-direction: row;
-                /* border: 1px solid lightblue; */
-                justify-content: center;
-                align-items: flex-start;
-                padding: 0;
-                width: 40%;
-                height: 25vh;
-                margin-left: 6%;
-              }
-            
-              .left_albumContent{
-                display: flex;
-                flex-direction: column;
-              }
-            
-              .left_albumContent img{
-                display: flex;
-                width: 100%;
-                height: 50%;
-                border-radius: 5%;
-                justify-content: center;
-                align-items: center;
-                padding: 0;
-                margin: 0;
-              }
-            
-              .left_albumContent h2{
-                display: flex;
-                font-size: 120%;
-                margin-top: 3%;
-              }
-            
-              .left_albumContent p{
-                display: flex;
-                margin-top: -9%;
-                font-size: 90%;
-                color: #949faa;
-              }
-            </style>
-            <section class="left_baseAlbum2">
-                <div class="left_album">
-                    <div class="left_albumContent">
-                        <img src="storage/img/album3.png" alt="album">
-                        <h2>Exodus</h2>
-                        <p>Exo</p>
-                    </div>
-                </div>
-                <div class="left_album2">
-                    <div class="left_albumContent">
-                        <img src="storage/img/album4.png" alt="album">
-                        <h2>Blurryface</h2>
-                        <p>Twenty One Pilots</p>
-                    </div>
-                </div>
-            </section> 
-        `;
-    }
-}
-
-customElements.define('album-info2', AlbumInfo2);
-
+customElements.define('album-images', AlbumImages);
 
 function changeSong(){
     // Obtenemos la imagen por su ID
