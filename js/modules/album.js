@@ -8,12 +8,12 @@ class AlbumImages extends HTMLElement {
         const loadAlbums = async (searchTerm, index) => {
             const codeBase = searchTerm.replace(/\s/g, '%20');
 
-            const url = `https://spotify23.p.rapidapi.com/search/?q=${codeBase}&type=multi&offset=0&limit=10&numberOfTopResults=5`;
+            const url = `https://spotify23.p.rapidapi.com/search/?q=${codeBase}&type=albums&offset=0&limit=10&numberOfTopResults=5`;
             const options = {
                 method: 'GET',
                 headers: {
-                    // 'X-RapidAPI-Key': '8208b634d8mshfbf7b8084b4af97p1e63ffjsn17e0f81b8289',
-                    // 'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
+                    'X-RapidAPI-Key': '8208b634d8mshfbf7b8084b4af97p1e63ffjsn17e0f81b8289',
+                    'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
                 }
             };
 
@@ -45,7 +45,7 @@ class AlbumImages extends HTMLElement {
         };
 
         const index = parseInt(this.getAttribute('index')) || 0;
-        loadAlbums('imagine dragons', index);
+        loadAlbums('suicide squad: The album', index);
     }
 }
 
@@ -72,8 +72,8 @@ class SongTitles extends HTMLElement {
             const options = {
                 method: 'GET',
                 headers: {
-                    // 'X-RapidAPI-Key': '8208b634d8mshfbf7b8084b4af97p1e63ffjsn17e0f81b8289',
-                    // 'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
+                    'X-RapidAPI-Key': '8208b634d8mshfbf7b8084b4af97p1e63ffjsn17e0f81b8289',
+                    'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
                 }
             };
 
