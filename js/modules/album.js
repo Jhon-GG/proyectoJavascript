@@ -6,9 +6,9 @@ class AlbumImages extends HTMLElement {
 
     async connectedCallback() {
         const loadAlbums = async (searchTerm, index) => {
-            const formattedSearchTerm = searchTerm.replace(/\s/g, '%20');
+            const codeBase = searchTerm.replace(/\s/g, '%20');
 
-            const url = `https://spotify23.p.rapidapi.com/search/?q=${formattedSearchTerm}&type=multi&offset=0&limit=10&numberOfTopResults=5`;
+            const url = `https://spotify23.p.rapidapi.com/search/?q=${codeBase}&type=multi&offset=0&limit=10&numberOfTopResults=5`;
             const options = {
                 method: 'GET',
                 headers: {
@@ -66,9 +66,9 @@ class SongTitles extends HTMLElement {
 
     async connectedCallback() {
         const loadSongs = async (searchTerm, index) => {
-            const formattedSearchTerm = searchTerm.replace(/\s/g, '%20');
+            const codeBase = searchTerm.replace(/\s/g, '%20');
 
-            const url = `https://spotify23.p.rapidapi.com/search/?q=${formattedSearchTerm}&type=multi&offset=0&limit=10&numberOfTopResults=5`;
+            const url = `https://spotify23.p.rapidapi.com/search/?q=${codeBase}&type=multi&offset=0&limit=10&numberOfTopResults=5`;
             const options = {
                 method: 'GET',
                 headers: {
@@ -103,6 +103,68 @@ class SongTitles extends HTMLElement {
 customElements.define('song-titles', SongTitles);
 
 
+
+// -------------------------- APARTADO MAY LIKE -----------------------------------
+
+
+
+class MayLike extends HTMLElement {
+    constructor() {
+        super();
+    }
+    
+    async connectedCallback() {
+        const url = 'https://spotify23.p.rapidapi.com/search/?q=warriors&type=multi&offset=0&limit=10&numberOfTopResults=5';
+        const options = {
+            method: 'GET',
+            headers: {
+                'X-RapidAPI-Key': '8208b634d8mshfbf7b8084b4af97p1e63ffjsn17e0f81b8289',
+                'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
+            }
+        };
+
+        try {
+            const response = await fetch(url, options);
+            const result = await response.json();
+            let templates = '';
+            if (result && result.playlists && result.playlists.items) {
+                // Iteracion de cada playlist
+                result.playlists.items.slice(0, 6).forEach(playlist => {
+                    // Primera URL 
+                    const primeraUrl = playlist.data.images.items[0].sources[0].url;
+                    //  nombre y descripcion
+                    const nombre = playlist.data.name;
+                    let descripcion = playlist.data.description;
+                    // Limite de carácteres
+                    if (descripcion.length > 300) {
+                        descripcion = descripcion.substring(0, 50 - 3) + '...';
+                    }
+                    templates += `
+                    <div class="left_youMayLikeListBoxes">
+                    <div class="left_youMayLikeListImg">
+                        <img src="${primeraUrl}" alt="list">
+                    </div>
+                    <div class="left_youMayLikeListDescription">
+                        <h3>${nombre}</h3>
+                    </div>
+                    <div class="left_youMayLikeListTime">
+                        <h3>3:28</h3>
+                        <p>2018</p>                        
+                    </div>
+                </div>
+                    `;
+                });
+            } else {
+                console.log('No se encontraron playlist con ese parámetro de búsqueda');
+            }
+            this.innerHTML = templates;
+        } catch (error) {
+            console.error(error);
+        }
+    }
+}
+
+customElements.define('may-like', MayLike);
 
 
 
