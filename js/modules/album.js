@@ -1,18 +1,19 @@
+
 class AlbumImages extends HTMLElement {
     constructor() {
         super();
     }
 
     async connectedCallback() {
-        const loadAlbums = async (base, index) => {
-            const codeBase = base.replace(/\s/g, '%20');
+        const loadAlbums = async (searchTerm, index) => {
+            const formattedSearchTerm = searchTerm.replace(/\s/g, '%20');
 
-            const url = `https://spotify23.p.rapidapi.com/search/?q=${codeBase}&type=albums&offset=0&limit=10&numberOfTopResults=5`;
+            const url = `https://spotify23.p.rapidapi.com/search/?q=${formattedSearchTerm}&type=multi&offset=0&limit=10&numberOfTopResults=5`;
             const options = {
                 method: 'GET',
                 headers: {
-                    'X-RapidAPI-Key': '8208b634d8mshfbf7b8084b4af97p1e63ffjsn17e0f81b8289',
-		            'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
+                    // 'X-RapidAPI-Key': '8208b634d8mshfbf7b8084b4af97p1e63ffjsn17e0f81b8289',
+                    // 'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
                 }
             };
 
@@ -44,14 +45,17 @@ class AlbumImages extends HTMLElement {
         };
 
         const index = parseInt(this.getAttribute('index')) || 0;
-        loadAlbums('maneskin', index);
+        loadAlbums('imagine dragons', index);
     }
 }
 
 customElements.define('album-images', AlbumImages);
 
 
-// ------------------- ALBUMS TITLE ----------------------
+
+
+
+// // ------------------- ALBUMS TITLE ----------------------
 
 
 
@@ -61,15 +65,15 @@ class SongTitles extends HTMLElement {
     }
 
     async connectedCallback() {
-        const loadSongs = async (base, index) => {
-            const codeBase = base.replace(/\s/g, '%20');
+        const loadSongs = async (searchTerm, index) => {
+            const formattedSearchTerm = searchTerm.replace(/\s/g, '%20');
 
-            const url = `https://spotify23.p.rapidapi.com/search/?q=${codeBase}&type=tracks&offset=0&limit=10&numberOfTopResults=5`;
+            const url = `https://spotify23.p.rapidapi.com/search/?q=${formattedSearchTerm}&type=multi&offset=0&limit=10&numberOfTopResults=5`;
             const options = {
                 method: 'GET',
                 headers: {
-                    'X-RapidAPI-Key': '8208b634d8mshfbf7b8084b4af97p1e63ffjsn17e0f81b8289',
-		            'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
+                    // 'X-RapidAPI-Key': '8208b634d8mshfbf7b8084b4af97p1e63ffjsn17e0f81b8289',
+                    // 'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
                 }
             };
 
@@ -92,7 +96,7 @@ class SongTitles extends HTMLElement {
         };
 
         const index = parseInt(this.getAttribute('index')) || 0;
-        loadSongs('maneskin', index);
+        loadSongs('imagine dragons', index);
     }
 }
 
@@ -100,70 +104,27 @@ customElements.define('song-titles', SongTitles);
 
 
 
-class ArtistNames extends HTMLElement {
-    constructor() {
-        super();
-    }
-
-    async connectedCallback() {
-        const loadArtists = async (base, index) => {
-            const codeBase = base.replace(/\s/g, '%20');
-
-            const url = `https://spotify23.p.rapidapi.com/search/?q=${codeBase}&type=tracks&offset=0&limit=10&numberOfTopResults=5`;
-            const options = {
-                method: 'GET',
-                headers: {
-                    'X-RapidAPI-Key': '8208b634d8mshfbf7b8084b4af97p1e63ffjsn17e0f81b8289',
-		            'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
-                }
-            };
-
-            try {
-                const response = await fetch(url, options);
-                const result = await response.json();
-
-                if (result.tracks.items.length > index) {
-                    const trackData = result.tracks.items[index].data;
-                    if (trackData && trackData.artists && trackData.artists.length > 0) {
-                        const artistName = trackData.artists[0].name;
-                        this.innerHTML = `
-                            <p>${artistName}</p>
-                        `;
-                    }
-                }
-            } catch (error) {
-                console.error(error);
-            }
-        };
-
-        const index = parseInt(this.getAttribute('index')) || 0;
-        loadArtists('maneskin', index);
-    }
-}
-
-customElements.define('artist-names', ArtistNames);
 
 
+// // ----------------- CAMBIAR CANCIÓN ------------------------
 
-// ----------------- CAMBIAR CANCIÓN ------------------------
-
-function changeSong(){
-    // Obtenemos la imagen por su ID
-    const boxSong = document.getElementById('#album');
+// function changeSong(){
+//     // Obtenemos la imagen por su ID
+//     const boxSong = document.getElementById('#album');
     
-    // Agregamos un evento de clic a la imagen
-    boxSong.addEventListener('click', () => {
-        // Obtenemos el elemento my-frame por su clase
-        const myFrame = document.querySelector('.section_middleFrame');
-        // Cambiamos el atributo uri del my-frame con la URL de la nueva canción
-        myFrame.setAttribute('uri', 'spotify:track:6b5P51m8xx2XA6U7sdNZ5E');
-    });
-}
+//     // Agregamos un evento de clic a la imagen
+//     boxSong.addEventListener('click', () => {
+//         // Obtenemos el elemento my-frame por su clase
+//         const myFrame = document.querySelector('.section_middleFrame');
+//         // Cambiamos el atributo uri del my-frame con la URL de la nueva canción
+//         myFrame.setAttribute('uri', 'spotify:track:6b5P51m8xx2XA6U7sdNZ5E');
+//     });
+// }
 
-document.addEventListener('DOMContentLoaded', function() {
-    // Obtenemos la imagen por su ID
-    const image = document.getElementById('imageId');
-    // Agregamos un evento de clic a la imagen
-    image.addEventListener('click', changeSong);
-});
+// document.addEventListener('DOMContentLoaded', function() {
+//     // Obtenemos la imagen por su ID
+//     const image = document.getElementById('imageId');
+//     // Agregamos un evento de clic a la imagen
+//     image.addEventListener('click', changeSong);
+// });
 

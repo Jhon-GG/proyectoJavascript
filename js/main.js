@@ -46,22 +46,22 @@ customElements.define("my-frame",myframe)
 
 
 
-// ----------------- FUNCIONALIDAD BOTONES -----------------------
+// // ----------------- FUNCIONALIDAD BOTONES -----------------------
 
 
-// funciones.js
+// // funciones.js
 
-function showLeft() {
-    // Ocultar parte central y derecha, mostrar parte izquierda
-    document.getElementById('section_middle').style.display = 'none';
-    document.getElementById('right_aside').style.display = 'none';
-    document.getElementById('left_aside').style.visibility = 'visible';
-}
+// function showLeft() {
+//     // Ocultar parte central y derecha, mostrar parte izquierda
+//     document.getElementById('section_middle').style.display = 'none';
+//     document.getElementById('right_aside').style.display = 'none';
+//     document.getElementById('left_aside').style.visibility = 'visible';
+// }
 
-function showRight() {
-    // Ocultar parte central y izquierda, mostrar parte derecha
-    document.getElementById('section_middle').style.display = 'none';
-    document.getElementById('left_aside').style.display = 'none';
-    document.getElementById('right_aside').style.visibility = 'visible';
-}
+// function showRight() {
+//     // Ocultar parte central y izquierda, mostrar parte derecha
+//     document.getElementById('section_middle').style.display = 'none';
+//     document.getElementById('left_aside').style.display = 'none';
+//     document.getElementById('right_aside').style.visibility = 'visible';
+// }
 
