@@ -395,8 +395,6 @@ body, html{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    border: 1px solid red;
     width: 100%;
     height: 3vh;
     font-size: 90%;
