@@ -107,55 +107,69 @@ customElements.define('song-titles', SongTitles);
 // -------------------------- APARTADO MAY LIKE -----------------------------------
 
 
-
 class MayLike extends HTMLElement {
     constructor() {
         super();
     }
     
     async connectedCallback() {
-        const url = 'https://spotify23.p.rapidapi.com/search/?q=warriors&type=multi&offset=0&limit=10&numberOfTopResults=5';
-        const options = {
-            method: 'GET',
-            headers: {
-                'X-RapidAPI-Key': '8208b634d8mshfbf7b8084b4af97p1e63ffjsn17e0f81b8289',
-                'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
-            }
+        const genres = ['cool with you new jeans', 'stressed out twenty one pilots', 'basket case green day', 'gossip maneskin', 'american green day'];
+        const fetchSongsByGenre = async (genre) => {
+            const url = `https://spotify23.p.rapidapi.com/search/?q=${genre}&type=tracks&offset=0&limit=10&numberOfTopResults=5`;
+            const options = {
+                method: 'GET',
+                headers: {
+                    // 'X-RapidAPI-Key': '8208b634d8mshfbf7b8084b4af97p1e63ffjsn17e0f81b8289',
+                    // 'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
+                }
+            };
+            const response = await fetch(url, options);
+            const result = await response.json();
+            return result.tracks.items;
         };
 
         try {
-            const response = await fetch(url, options);
-            const result = await response.json();
+            let allSongs = [];
+            for (const genre of genres) {
+                const songs = await fetchSongsByGenre(genre);
+                if (songs && songs.length > 0) {
+                    allSongs.push(songs[Math.floor(Math.random() * songs.length)]); // Selecciona una canción aleatoria de cada género
+                }
+            }
+            
             let templates = '';
-            if (result && result.playlists && result.playlists.items) {
-                // Iteracion de cada playlist
-                result.playlists.items.slice(0, 6).forEach(playlist => {
-                    // Primera URL 
-                    const primeraUrl = playlist.data.images.items[0].sources[0].url;
-                    //  nombre y descripcion
-                    const nombre = playlist.data.name;
-                    let descripcion = playlist.data.description;
-                    // Limite de carácteres
-                    if (descripcion.length > 300) {
-                        descripcion = descripcion.substring(0, 50 - 3) + '...';
-                    }
-                    templates += `
-                    <div class="left_youMayLikeListBoxes">
+            allSongs.forEach(track => {
+                const trackData = track.data;
+                // Primera URL de la portada del álbum
+                const primeraUrl = trackData.albumOfTrack.coverArt.sources[0].url;
+                // Nombre de la canción
+                const nombre = trackData.name;
+                // Nombre del artista
+                const artista = trackData.artists.items.map(artist => artist.profile.name).join(', ');
+                // Duración de la canción en milisegundos
+                const durationMs = trackData.duration.totalMilliseconds;
+                // Convertir a minutos y segundos
+                const minutes = Math.floor(durationMs / 60000);
+                const seconds = Math.floor((durationMs % 60000) / 1000).toString().padStart(2, '0');
+
+                templates += `
+                <div class="left_youMayLikeListBoxes">
                     <div class="left_youMayLikeListImg">
                         <img src="${primeraUrl}" alt="list">
                     </div>
                     <div class="left_youMayLikeListDescription">
                         <h3>${nombre}</h3>
+                        <p>${artista}</p>
                     </div>
                     <div class="left_youMayLikeListTime">
-                        <h3>3:28</h3>
-                        <p>2018</p>                        
+                        <h3>${minutes}:${seconds}</h3>
                     </div>
                 </div>
-                    `;
-                });
-            } else {
-                console.log('No se encontraron playlist con ese parámetro de búsqueda');
+                `;
+            });
+
+            if (templates === '') {
+                console.log('No se encontraron canciones para los géneros proporcionados');
             }
             this.innerHTML = templates;
         } catch (error) {
@@ -165,6 +179,10 @@ class MayLike extends HTMLElement {
 }
 
 customElements.define('may-like', MayLike);
+
+
+
+
 
 
 
