@@ -41,42 +41,58 @@
                             </button>
                         </label>
                     </form>
-                </div>
-
-                <!-- ----------------------------- ALBUMS LISTS ------------------------- -->
-
+                </div>                
             </figure>
+
+            
+            <!-- ----------------------------- ALBUMS LISTS ------------------------- -->
             <!-- <album-info></album-info>
             <album-info2></album-info2> -->
             <!-- <album-images></album-images> -->
-            <section class="left_baseAlbum">
-                <div class="left_album">
-                    <div class="left_albumContent">
-                        <album-images index="0"></album-images>
-                        <h2><song-titles index="0"></song-titles></h2>
+            <div class="left_albumsPosition">
+                <section class="left_baseAlbum">
+                    <div class="left_album">
+                        <div class="left_albumContent">
+                            <album-images index="0"></album-images>
+                            <h2><song-titles index="0"></song-titles></h2>
+                        </div>
                     </div>
-                </div>
-                <div class="left_album2">
-                    <div class="left_albumContent">
-                        <album-images index="1"></album-images>
-                        <h2><song-titles index="1"></song-titles></h2>
+                    <div class="left_album2">
+                        <div class="left_albumContent">
+                            <album-images index="1"></album-images>
+                            <h2><song-titles index="1"></song-titles></h2>
+                        </div>
                     </div>
-                </div>
-            </section>
-            <section class="left_baseAlbum2">
-                <div class="left_album">
-                    <div class="left_albumContent">
-                        <album-images index="2"></album-images>
-                        <h2><song-titles index="2"></song-titles></h2>
+                </section>
+                <section class="left_baseAlbum2">
+                    <div class="left_album">
+                        <div class="left_albumContent">
+                            <album-images index="2"></album-images>
+                            <h2><song-titles index="2"></song-titles></h2>
+                        </div>
                     </div>
-                </div>
-                <div class="left_album2">
-                    <div class="left_albumContent">
-                        <album-images index="3"></album-images>
-                        <h2><song-titles index="3"></song-titles></h2>
+                    <div class="left_album2">
+                        <div class="left_albumContent">
+                            <album-images index="3"></album-images>
+                            <h2><song-titles index="3"></song-titles></h2>
+                        </div>
                     </div>
-                </div>
-            </section>
+                </section>
+                <section class="left_baseAlbum2">
+                    <div class="left_album">
+                        <div class="left_albumContent">
+                            <album-images index="4"></album-images>
+                            <h2><song-titles index="4"></song-titles></h2>
+                        </div>
+                    </div>
+                    <div class="left_album2">
+                        <div class="left_albumContent">
+                            <album-images index="5"></album-images>
+                            <h2><song-titles index="5"></song-titles></h2>
+                        </div>
+                    </div>
+                </section>
+            </div>
 
             <!-- --------------------- LIST OF YOU MAY LIKE ----------------------------- -->
 
@@ -175,7 +191,7 @@
             </header>
             <div class="frame__box">
                 <div class="frame_boxPosition">
-                    <my-frame id="section_middleFrame" class= "section_middleFrame"uri="spotify:album:5rOHrnrRomvSJhQLGVtfJ8"></my-frame>
+                    <my-frame id="section_middleFrame" class= "section_middleFrame" uri="spotify:album:2G4AUqfwxcV1UdQjm2ouYr"></my-frame>
                 </div>
             </div>
             <figure id="middle_topChart" class="middle_topChart">
@@ -228,7 +244,7 @@
                 </div>
             </figure>
             <section class="right_asideList">
-                <spoty-tracks></spoty-tracks>
+                <track-list class="trackList" uri="spotify:album:2G4AUqfwxcV1UdQjm2ouYr"></track-list>
                 <!-- <div class="right_asideListBoxes">
                     <div class="right_asideListImg">
                         <img src="storage/img/lofi.png" alt="trackList">

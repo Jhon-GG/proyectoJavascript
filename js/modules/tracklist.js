@@ -1,6 +1,6 @@
 
 
-class Tracks extends HTMLElement {
+class TrackList extends HTMLElement {
     constructor() {
         super();
     }
@@ -22,8 +22,8 @@ class Tracks extends HTMLElement {
         const options = {
             method: 'GET',
             headers: {
-                'X-RapidAPI-Key': '8208b634d8mshfbf7b8084b4af97p1e63ffjsn17e0f81b8289',
-                'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
+                // 'X-RapidAPI-Key': '6283486e23msh3cb7439a62560a7p1e045cjsn90bbe9b56c4e',
+                // 'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
             }
         };
 
@@ -31,28 +31,33 @@ class Tracks extends HTMLElement {
             const response = await fetch(url, options);
             const result = await response.json();
 
-            // Obtener el primer álbum de la respuesta
+
             const album = result.albums[0];
 
-            // Obtener la URL de la tercera imagen
+
             const imageUrl = album.images[2].url;
 
-            // Crear la plantilla HTML para cada pista del álbum
+
             let templates = '';
             album.tracks.items.forEach(track => {
+
+                const durationMs = track.duration_ms;
+                const minutes = Math.floor(durationMs / 60000);
+                const seconds = Math.floor((durationMs % 60000) / 1000).toString().padStart(2, '0');
+
                 templates += `
-                <div class="right_asideListBoxes">
-                    <div class="right_asideListImg">
-                        <img src=${imageUrl} alt="trackList" data-id="${track.uri}>
+                    <div class="right_asideListBoxes">
+                        <div class="right_asideListImg">
+                            <img src="${imageUrl}" alt="trackList" data-id="${track.uri}">
+                        </div>
+                        <div class="right_asideListDescription">
+                            <h3>${track.name}</h3>
+                            <p>${track.artists[0].name}</p>
+                        </div>
+                        <div class="right_asideListTime">
+                            <h3>${minutes}:${seconds}</h3>
+                        </div>
                     </div>
-                    <div class="right_asideListDescription">
-                        <h3>${track.name}</h3>
-                        <p>${track.artists[0].name}</p>
-                    </div>
-                    <div class="right_asideListTime">
-                        <h3>${album.release_date}</h3>                        
-                    </div>
-                </div>
                 `;
             });
             this.innerHTML = templates;
@@ -86,4 +91,5 @@ class Tracks extends HTMLElement {
     }
 }
 
-customElements.define('spoty-tracks', Tracks);
+customElements.define('track-list', TrackList);
+

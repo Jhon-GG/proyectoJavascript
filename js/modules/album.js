@@ -12,8 +12,8 @@ class AlbumImages extends HTMLElement {
             const options = {
                 method: 'GET',
                 headers: {
-                    'X-RapidAPI-Key': '8208b634d8mshfbf7b8084b4af97p1e63ffjsn17e0f81b8289',
-                    'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
+                    // 'X-RapidAPI-Key': '6283486e23msh3cb7439a62560a7p1e045cjsn90bbe9b56c4e',
+		            // 'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
                 }
             };
 
@@ -45,7 +45,7 @@ class AlbumImages extends HTMLElement {
         };
 
         const index = parseInt(this.getAttribute('index')) || 0;
-        loadAlbums('suicide squad: The album', index);
+        loadAlbums('coldplay', index);
     }
 }
 
@@ -59,6 +59,7 @@ customElements.define('album-images', AlbumImages);
 
 
 
+
 class SongTitles extends HTMLElement {
     constructor() {
         super();
@@ -68,12 +69,12 @@ class SongTitles extends HTMLElement {
         const loadSongs = async (searchTerm, index) => {
             const codeBase = searchTerm.replace(/\s/g, '%20');
 
-            const url = `https://spotify23.p.rapidapi.com/search/?q=${codeBase}&type=multi&offset=0&limit=10&numberOfTopResults=5`;
+            const url = `https://spotify23.p.rapidapi.com/search/?q=${codeBase}&type=albums&offset=0&limit=10&numberOfTopResults=5`;
             const options = {
                 method: 'GET',
                 headers: {
-                    'X-RapidAPI-Key': '8208b634d8mshfbf7b8084b4af97p1e63ffjsn17e0f81b8289',
-                    'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
+                    // 'X-RapidAPI-Key': '6283486e23msh3cb7439a62560a7p1e045cjsn90bbe9b56c4e',
+		            // 'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
                 }
             };
 
@@ -81,12 +82,12 @@ class SongTitles extends HTMLElement {
                 const response = await fetch(url, options);
                 const result = await response.json();
 
-                if (result.tracks.items.length > index) {
-                    const trackData = result.tracks.items[index].data;
-                    if (trackData) {
-                        const songTitle = trackData.name;
+                if (result.albums.items.length > index) {
+                    const albumData = result.albums.items[index].data;
+                    if (albumData) {
+                        const albumTitle = albumData.name;
                         this.innerHTML = `
-                            <h2>${songTitle}</h2>
+                            <h2>${index + 1}. ${albumTitle}</h2>
                         `;
                     }
                 }
@@ -96,11 +97,12 @@ class SongTitles extends HTMLElement {
         };
 
         const index = parseInt(this.getAttribute('index')) || 0;
-        loadSongs('imagine dragons', index);
+        loadSongs('coldplay', index);
     }
 }
 
 customElements.define('song-titles', SongTitles);
+
 
 
 
@@ -113,14 +115,14 @@ class MayLike extends HTMLElement {
     }
     
     async connectedCallback() {
-        const genres = ['cool with you new jeans', 'stressed out twenty one pilots', 'basket case green day', 'gossip maneskin', 'american green day'];
+        const genres = ['cool with you new jeans', 'stressed out twenty one pilots', 'basket case green day', 'gossip maneskin', 'american green day', 'me rehuso danny ocean'];
         const fetchSongsByGenre = async (genre) => {
             const url = `https://spotify23.p.rapidapi.com/search/?q=${genre}&type=tracks&offset=0&limit=10&numberOfTopResults=5`;
             const options = {
                 method: 'GET',
                 headers: {
-                    // 'X-RapidAPI-Key': '8208b634d8mshfbf7b8084b4af97p1e63ffjsn17e0f81b8289',
-                    // 'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
+                    // 'X-RapidAPI-Key': '6283486e23msh3cb7439a62560a7p1e045cjsn90bbe9b56c4e',
+		            // 'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
                 }
             };
             const response = await fetch(url, options);
