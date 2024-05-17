@@ -210,6 +210,17 @@ body, html{
 
   /* ------------------------------- left album ------------------------------------------------- */
 
+
+
+  .left_albumsPosition{
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 350vh;
+    width: 100%;
+  }
+
   .left_baseAlbum{
     display: flex;
     flex-direction: row;
@@ -600,7 +611,7 @@ body, html{
   height: 3vh;
   margin: 0;
   padding: 0;
-  font-size: 130%;
+  font-size: 110%;
 }
 
 .right_asideListDescription p{
