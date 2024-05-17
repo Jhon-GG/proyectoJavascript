@@ -5,7 +5,7 @@ import './modules/tracklist.js'
 
 // -------------------- COMPONENTE DE SPOTIFY RAPIDAPI ------------------------------
 
-class myframe extends HTMLElement{
+class myframe extends HTMLElement {
     constructor() {
         super();
         this.attachShadow({ mode: "open" });
@@ -21,7 +21,7 @@ class myframe extends HTMLElement{
             const id = uri.split(':')[2];
             const typeOf = uri.split(':')[1];
             this.shadowRoot.innerHTML = `
-                <iframe class="spotify-iframe" width="100%" height="500" src="https://open.spotify.com/embed//album/${id}" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <iframe class="spotify-iframe" width="100%" height="500" src="https://open.spotify.com/embed/${typeOf}/${id}" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
             `;
         } else {
             this.shadowRoot.innerHTML = '';
@@ -38,7 +38,8 @@ class myframe extends HTMLElement{
         }
     }
 }
-customElements.define("my-frame",myframe)
+
+customElements.define("my-frame", myframe);
 
 
 // class MyFrame extends HTMLElement {

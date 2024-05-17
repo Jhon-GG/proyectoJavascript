@@ -14,8 +14,8 @@ class AlbumImages extends HTMLElement {
         const options = {
             method: 'GET',
             headers: {
-                'X-RapidAPI-Key': '6283486e23msh3cb7439a62560a7p1e045cjsn90bbe9b56c4e',
-                'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
+                // 'X-RapidAPI-Key': 'bb41872726msh81baf08ac413f15p1947b7jsnb9728a6429e9',
+                // 'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
             }
         };
 
@@ -34,7 +34,7 @@ class AlbumImages extends HTMLElement {
                     `;
 
                     this.querySelector('img').addEventListener('click', () => {
-                        const myFrame = document.querySelector('.main__frame');
+                        const myFrame = document.querySelector('my-frame');
                         myFrame.setAttribute('uri', `spotify:album:${id}`);
                         const AlbumTracksComponent = document.querySelector('.trackList');
                         AlbumTracksComponent.setAttribute('uri', `spotify:album:${id}`);
@@ -68,8 +68,8 @@ class SongTitles extends HTMLElement {
         const options = {
             method: 'GET',
             headers: {
-                'X-RapidAPI-Key': '6283486e23msh3cb7439a62560a7p1e045cjsn90bbe9b56c4e',
-                'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
+                // 'X-RapidAPI-Key': 'bb41872726msh81baf08ac413f15p1947b7jsnb9728a6429e9',
+                // 'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
             }
         };
 
@@ -120,7 +120,6 @@ function updateAlbumsAndSongs(searchTerm) {
 
 
 
-
 // -------------------------- APARTADO MAY LIKE -----------------------------------
 
 
@@ -136,8 +135,8 @@ class MayLike extends HTMLElement {
             const options = {
                 method: 'GET',
                 headers: {
-                    // 'X-RapidAPI-Key': '6283486e23msh3cb7439a62560a7p1e045cjsn90bbe9b56c4e',
-		            // 'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
+                    // 'X-RapidAPI-Key': 'bb41872726msh81baf08ac413f15p1947b7jsnb9728a6429e9',
+                    // 'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
                 }
             };
             const response = await fetch(url, options);
