@@ -590,10 +590,21 @@ class SearchSongs extends HTMLElement {
       }
   }
 
-  updateTrackList(tracks) {
-      const trackList = document.querySelector('track-list');
-      trackList.updateTracks(tracks);
-  }
+      updateTrackList(tracks) {
+        const trackList = document.querySelector('track-list');
+        trackList.updateTracks(tracks);
+
+        const images = trackList.querySelectorAll('img');
+        images.forEach(img => {
+            img.addEventListener('click', () => {
+                const uri = img.dataset.uri;
+                const myFrame = document.querySelector('my-frame');
+                myFrame.setAttribute('uri', uri); // Establecer el URI de la canción en el my-frame al hacer clic en la imagen
+            });
+        });
+    }
+
+
 }
 
 customElements.define('search-songs', SearchSongs);

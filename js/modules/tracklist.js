@@ -66,9 +66,9 @@ class TrackList extends HTMLElement {
                 img.addEventListener('click', () => {
                     const uri = img.dataset.uri;
                     const myFrame = document.querySelector('my-frame');
-                    myFrame.setAttribute('uri', `${uri}`);
+                    myFrame.setAttribute('uri', uri); // Establecer la URI de la canción en el my-frame
                 });
-            });
+            });            
         } catch (error) {
             console.error(error);
         }
