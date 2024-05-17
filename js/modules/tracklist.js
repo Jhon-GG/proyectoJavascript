@@ -22,7 +22,7 @@ class TrackList extends HTMLElement {
         const options = {
             method: 'GET',
             headers: {
-                'X-RapidAPI-Key': 'bb41872726msh81baf08ac413f15p1947b7jsnb9728a6429e9',
+                'X-RapidAPI-Key': '7286905108msh5eadf69b458c83fp1100ccjsn59531d8846b0',
                 'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
             }
         };
@@ -42,7 +42,7 @@ class TrackList extends HTMLElement {
                 templates += `
                     <div class="right_asideListBoxes">
                         <div class="right_asideListImg">
-                            <img src="${imageUrl}" alt="trackList" data-id="${track.uri}">
+                            <img src="${imageUrl}" alt="trackList" data-uri="${track.uri}">
                         </div>
                         <div class="right_asideListDescription">
                             <h3>${track.name}</h3>
@@ -64,9 +64,9 @@ class TrackList extends HTMLElement {
 
             this.querySelectorAll('img').forEach(img => {
                 img.addEventListener('click', () => {
-                    const id = img.dataset.id;
+                    const uri = img.dataset.uri;
                     const myFrame = document.querySelector('my-frame');
-                    myFrame.setAttribute('uri', `${id}`);
+                    myFrame.setAttribute('uri', `${uri}`);
                 });
             });
         } catch (error) {
@@ -83,6 +83,37 @@ class TrackList extends HTMLElement {
             this.renderFrame();
         }
     }
+
+    updateTracks(tracks) {
+        let templates = '';
+        tracks.forEach(track => {
+            const imageUrl = track.albumOfTrack.coverArt.sources[2].url;
+            const trackName = track.name;
+            const artistName = track.artists.items[0].profile.name;
+            const durationMs = track.duration.totalMilliseconds;
+            const minutes = Math.floor(durationMs / 60000);
+            const seconds = Math.floor((durationMs % 60000) / 1000).toString().padStart(2, '0');
+
+            templates += `
+                <div class="right_asideListBoxes">
+                    <div class="right_asideListImg">
+                        <img src="${imageUrl}" alt="trackList" data-uri="${track.uri}">
+                    </div>
+                    <div class="right_asideListDescription">
+                        <h3>${trackName}</h3>
+                        <p>${artistName}</p>
+                    </div>
+                    <div class="right_asideListTime">
+                        <h3>${minutes}:${seconds}</h3>
+                    </div>
+                </div>
+            `;
+        });
+        this.innerHTML = templates;
+    }
 }
 
 customElements.define('track-list', TrackList);
+
+
+
