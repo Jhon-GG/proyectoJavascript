@@ -42,33 +42,6 @@ class myframe extends HTMLElement {
 customElements.define("my-frame", myframe);
 
 
-// class MyFrame extends HTMLElement {
-//     constructor() {
-//         super();
-//     }
-    
-//     connectedCallback() {
-//         this.attachShadow({ mode: "open" });
-//         // Escuchar el evento personalizado 'albumSelected' de AlbumGallery
-//         document.addEventListener('albumSelected', (event) => {
-//             // Obtener la uri del detalle del evento
-//             const uri = event.detail;
-//             // Obtener solo lo que está después del ":" en la uri
-//             const id = uri.split(':')[1];
-//             // Insertar el iframe con el id en el shadow DOM
-//             this.shadowRoot.innerHTML = `
-//                 <iframe class="spotify-iframe" width="100%" height="500" src="https://open.spotify.com/embed/album/${id}" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-//             `;
-//         });
-//     }
-// }
-
-// customElements.define("my-frame", MyFrame);
-
-
-
-
-
 
 
 // // ----------------- FUNCIONALIDAD BOTONES -----------------------

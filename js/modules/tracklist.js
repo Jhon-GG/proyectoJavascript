@@ -22,25 +22,19 @@ class TrackList extends HTMLElement {
         const options = {
             method: 'GET',
             headers: {
-                // 'X-RapidAPI-Key': 'bb41872726msh81baf08ac413f15p1947b7jsnb9728a6429e9',
-                // 'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
+                'X-RapidAPI-Key': 'bb41872726msh81baf08ac413f15p1947b7jsnb9728a6429e9',
+                'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
             }
         };
 
         try {
             const response = await fetch(url, options);
             const result = await response.json();
-
-
             const album = result.albums[0];
-
-
             const imageUrl = album.images[2].url;
-
 
             let templates = '';
             album.tracks.items.forEach(track => {
-
                 const durationMs = track.duration_ms;
                 const minutes = Math.floor(durationMs / 60000);
                 const seconds = Math.floor((durationMs % 60000) / 1000).toString().padStart(2, '0');
@@ -67,11 +61,11 @@ class TrackList extends HTMLElement {
                     track.classList.add('active');
                 });
             }, 100);
-            
+
             this.querySelectorAll('img').forEach(img => {
                 img.addEventListener('click', () => {
                     const id = img.dataset.id;
-                    const myFrame = document.querySelector('.main__frame');
+                    const myFrame = document.querySelector('my-frame');
                     myFrame.setAttribute('uri', `${id}`);
                 });
             });
@@ -92,4 +86,3 @@ class TrackList extends HTMLElement {
 }
 
 customElements.define('track-list', TrackList);
-
