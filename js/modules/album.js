@@ -1,64 +1,56 @@
-
 class AlbumImages extends HTMLElement {
     constructor() {
         super();
     }
 
     async connectedCallback() {
-        const loadAlbums = async (searchTerm, index) => {
-            const codeBase = searchTerm.replace(/\s/g, '%20');
+        const index = parseInt(this.getAttribute('index')) || 0;
+        this.loadAlbums('coldplay', index);
+    }
 
-            const url = `https://spotify23.p.rapidapi.com/search/?q=${codeBase}&type=albums&offset=0&limit=10&numberOfTopResults=5`;
-            const options = {
-                method: 'GET',
-                headers: {
-                    // 'X-RapidAPI-Key': '6283486e23msh3cb7439a62560a7p1e045cjsn90bbe9b56c4e',
-		            // 'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
-                }
-            };
-
-            try {
-                const response = await fetch(url, options);
-                const result = await response.json();
-
-                if (result.albums.items.length > index) {
-                    const albumData = result.albums.items[index].data;
-                    if (albumData && albumData.coverArt && albumData.coverArt.sources.length > 0) {
-                        const primeraUrl = albumData.coverArt.sources[0].url;
-                        const uri = albumData.uri;
-                        const id = uri.split(':')[2];
-                        this.innerHTML = `
-                            <img id="album__${index + 1}" src="${primeraUrl}" alt="" data-id="${id}">
-                        `;
-
-                        this.querySelector('img').addEventListener('click', () => {
-                            const myFrame = document.querySelector('.main__frame');
-                            myFrame.setAttribute('uri', `spotify:album:${id}`);
-                            const AlbumTracksComponent = document.querySelector('.trackList');
-                            AlbumTracksComponent.setAttribute('uri', `spotify:album:${id}`);
-                        });
-                    }
-                }
-            } catch (error) {
-                console.error(error);
+    async loadAlbums(searchTerm, index) {
+        const codeBase = searchTerm.replace(/\s/g, '%20');
+        const url = `https://spotify23.p.rapidapi.com/search/?q=${codeBase}&type=albums&offset=0&limit=10&numberOfTopResults=5`;
+        const options = {
+            method: 'GET',
+            headers: {
+                'X-RapidAPI-Key': '6283486e23msh3cb7439a62560a7p1e045cjsn90bbe9b56c4e',
+                'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
             }
         };
 
-        const index = parseInt(this.getAttribute('index')) || 0;
-        loadAlbums('coldplay', index);
+        try {
+            const response = await fetch(url, options);
+            const result = await response.json();
+
+            if (result.albums.items.length > index) {
+                const albumData = result.albums.items[index].data;
+                if (albumData && albumData.coverArt && albumData.coverArt.sources.length > 0) {
+                    const primeraUrl = albumData.coverArt.sources[0].url;
+                    const uri = albumData.uri;
+                    const id = uri.split(':')[2];
+                    this.innerHTML = `
+                        <img id="album__${index + 1}" src="${primeraUrl}" alt="" data-id="${id}">
+                    `;
+
+                    this.querySelector('img').addEventListener('click', () => {
+                        const myFrame = document.querySelector('.main__frame');
+                        myFrame.setAttribute('uri', `spotify:album:${id}`);
+                        const AlbumTracksComponent = document.querySelector('.trackList');
+                        AlbumTracksComponent.setAttribute('uri', `spotify:album:${id}`);
+                    });
+                }
+            } else {
+                this.innerHTML = `<p>No results found</p>`;
+            }
+        } catch (error) {
+            console.error(error);
+            this.innerHTML = `<p>Error loading albums</p>`;
+        }
     }
 }
 
 customElements.define('album-images', AlbumImages);
-
-
-
-
-
-// // ------------------- ALBUMS TITLE ----------------------
-
-
-
 
 class SongTitles extends HTMLElement {
     constructor() {
@@ -66,42 +58,65 @@ class SongTitles extends HTMLElement {
     }
 
     async connectedCallback() {
-        const loadSongs = async (searchTerm, index) => {
-            const codeBase = searchTerm.replace(/\s/g, '%20');
+        const index = parseInt(this.getAttribute('index')) || 0;
+        this.loadSongs('coldplay', index);
+    }
 
-            const url = `https://spotify23.p.rapidapi.com/search/?q=${codeBase}&type=albums&offset=0&limit=10&numberOfTopResults=5`;
-            const options = {
-                method: 'GET',
-                headers: {
-                    // 'X-RapidAPI-Key': '6283486e23msh3cb7439a62560a7p1e045cjsn90bbe9b56c4e',
-		            // 'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
-                }
-            };
-
-            try {
-                const response = await fetch(url, options);
-                const result = await response.json();
-
-                if (result.albums.items.length > index) {
-                    const albumData = result.albums.items[index].data;
-                    if (albumData) {
-                        const albumTitle = albumData.name;
-                        this.innerHTML = `
-                            <h2>${index + 1}. ${albumTitle}</h2>
-                        `;
-                    }
-                }
-            } catch (error) {
-                console.error(error);
+    async loadSongs(searchTerm, index) {
+        const codeBase = searchTerm.replace(/\s/g, '%20');
+        const url = `https://spotify23.p.rapidapi.com/search/?q=${codeBase}&type=albums&offset=0&limit=10&numberOfTopResults=5`;
+        const options = {
+            method: 'GET',
+            headers: {
+                'X-RapidAPI-Key': '6283486e23msh3cb7439a62560a7p1e045cjsn90bbe9b56c4e',
+                'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
             }
         };
 
-        const index = parseInt(this.getAttribute('index')) || 0;
-        loadSongs('coldplay', index);
+        try {
+            const response = await fetch(url, options);
+            const result = await response.json();
+
+            if (result.albums.items.length > index) {
+                const albumData = result.albums.items[index].data;
+                if (albumData) {
+                    const albumTitle = albumData.name;
+                    this.innerHTML = `
+                        <h2>${albumTitle}</h2>
+                    `;
+                }
+            } else {
+                this.innerHTML = `<p>No results found</p>`;
+            }
+        } catch (error) {
+            console.error(error);
+            this.innerHTML = `<p>Error loading songs</p>`;
+        }
     }
 }
 
 customElements.define('song-titles', SongTitles);
+
+// Function to handle search
+document.addEventListener('DOMContentLoaded', () => {
+    const form = document.getElementById('left_form');
+    form.addEventListener('submit', (event) => {
+        event.preventDefault();
+        const searchTerm = document.getElementById('search').value;
+        updateAlbumsAndSongs(searchTerm);
+    });
+});
+
+function updateAlbumsAndSongs(searchTerm) {
+    document.querySelectorAll('album-images').forEach((element, index) => {
+        element.loadAlbums(searchTerm, index);
+    });
+
+    document.querySelectorAll('song-titles').forEach((element, index) => {
+        element.loadSongs(searchTerm, index);
+    });
+}
+
 
 
 
