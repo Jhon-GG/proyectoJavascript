@@ -367,8 +367,8 @@ class AlbumFilter extends HTMLElement {
         const options = {
             method: 'GET',
             headers: {
-              // 'X-RapidAPI-Key': '3cd8aaf3acmsh2a7342c10572422p1e5dc8jsn9e015920b112',
-              // 'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
+              'X-RapidAPI-Key': '7286905108msh5eadf69b458c83fp1100ccjsn59531d8846b0',
+              'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
             }
         };
 
