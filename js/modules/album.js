@@ -14,8 +14,8 @@ class AlbumImages extends HTMLElement {
         const options = {
             method: 'GET',
             headers: {
-                'X-RapidAPI-Key': '7286905108msh5eadf69b458c83fp1100ccjsn59531d8846b0',
-                'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
+                // 'X-RapidAPI-Key': 'f46991c32amshcaaf897b780d9dbp1e39d5jsnf6b8700f2780',
+                // 'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
             }
         };
 
@@ -68,8 +68,8 @@ class SongTitles extends HTMLElement {
         const options = {
             method: 'GET',
             headers: {
-                'X-RapidAPI-Key': '7286905108msh5eadf69b458c83fp1100ccjsn59531d8846b0',
-                'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
+                // 'X-RapidAPI-Key': 'f46991c32amshcaaf897b780d9dbp1e39d5jsnf6b8700f2780',
+                // 'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
             }
         };
 
@@ -135,8 +135,8 @@ class MayLike extends HTMLElement {
             const options = {
                 method: 'GET',
                 headers: {
-                    'X-RapidAPI-Key': '7286905108msh5eadf69b458c83fp1100ccjsn59531d8846b0',
-                    'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
+                    // 'X-RapidAPI-Key': 'f46991c32amshcaaf897b780d9dbp1e39d5jsnf6b8700f2780',
+                    // 'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
                 }
             };
             const response = await fetch(url, options);

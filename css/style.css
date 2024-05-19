@@ -759,6 +759,43 @@ body, html{
     border: 1px solid #fff; 
   }
 
-  
+  .left_albumsPosition{
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 200px;
+    width: 100%;
+  }
+
+  .left_youMayLikeList{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid yellow; */
+    width: 100%;
+    height: 300px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+
+  .section_middleHeader h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 170%;
+    margin-top: 50px;
+  }
+
+  .right_asideList{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid yellow; */
+    width: 100%;
+    height: 65%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin-top: 10%;
+    margin-bottom: 15%;
+  }
   
 }
