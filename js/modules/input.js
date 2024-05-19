@@ -213,18 +213,25 @@ class AlbumFilter extends HTMLElement {
         this.attachShadow({ mode: 'open' });
         this.shadowRoot.innerHTML = `
             <style>
-                .form {
-                    --input-text-color: #fff;
-                    --input-bg-color: #1f1f1f;
-                    --focus-input-bg-color: transparent;
-                    --text-color: #949faa;
-                    --active-color: #fff;
-                    --width-of-input: 75%;
-                    height: 50%;
-                    --inline-padding-of-input: 1.2em;
-                    --gap: 0.9rem;
-                    margin-left: 10%;
-                }
+            .form {
+                --input-text-color: #fff;
+                --input-bg-color: #1f1f1f;
+                --focus-input-bg-color: transparent;
+                --text-color: #949faa;
+                --active-color: #fff;
+                --width-of-input: 75%;
+                height: 30px;
+                --inline-padding-of-input: 1.2em;
+                --gap: 0.9rem;
+                margin-left: 10%;
+            }
+            
+            /* Establecer anchura y margen en valores absolutos */
+            .form input[type="text"] {
+                width: 300px; /* Por ejemplo, establecer un ancho absoluto */
+                margin-left: 50px; /* Por ejemplo, establecer un margen absoluto */
+                height:40px
+            }
 
                 .form {
                     font-size: 1rem;
@@ -325,6 +332,22 @@ class AlbumFilter extends HTMLElement {
                     -webkit-transition: "color 9999s ease-out, background-color 9999s ease-out";
                     -webkit-transition-delay: 9999s;
                 }
+
+                @media screen and (max-width: 768px) {
+                    .form {
+                        --input-text-color: #fff;
+                        --input-bg-color: #1f1f1f;
+                        --focus-input-bg-color: transparent;
+                        --text-color: #949faa;
+                        --active-color: #fff;
+                        --width-of-input: 75%;
+                        height: 3%;
+                        --inline-padding-of-input: 1.2em;
+                        --gap: 0.9rem;
+                        margin-left: 10%;
+                    }
+                }
+
             </style>
             <label class="form" for="search">
                 <input class="input songSearch" type="text" required="" placeholder="What do you want to listen to?" id="songSearch">
@@ -428,7 +451,7 @@ class SearchSongs extends HTMLElement {
           --text-color: #949faa;
           --active-color: #fff;
           --width-of-input: 75%;
-          height: 50%;
+          height: 10px;
           --inline-padding-of-input: 1.2em;
           --gap: 0.9rem;
           margin-left: 10%;
@@ -533,6 +556,21 @@ class SearchSongs extends HTMLElement {
           -webkit-transition: "color 9999s ease-out, background-color 9999s ease-out";
           -webkit-transition-delay: 9999s;
       }
+
+      @media screen and (max-width: 768px) {
+        .form {
+            --input-text-color: #fff;
+            --input-bg-color: #1f1f1f;
+            --focus-input-bg-color: transparent;
+            --text-color: #949faa;
+            --active-color: #fff;
+            --width-of-input: 75%;
+            height: 2%;
+            --inline-padding-of-input: 1.2em;
+            --gap: 0.9rem;
+            margin-left: 10%;
+        }
+    }
   </style>
   <label class="form" for="search">
       <input class="input songSearch" type="text" required="" placeholder="What do you want to listen to?" id="songSearch">

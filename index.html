@@ -7,246 +7,249 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="storage/img/spotifyIcon.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="./js/menu.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <title>Spotify</title>
 </head>
 <body>
     <main class="main">
-        <aside id="left_aside" class="left_aside">
-            <header id="left_header" class="left_header">
-                <h1>Discover <br> New music</h1>
-            </header>
-            <figure id="left_topChart" class="left_topChart">
-                <div class="left_search">
-                    <form id="left_form" class="form">
+        <div class="Primero" id = "columna1">
+            <aside id="left_aside" class="left_aside">
+                <header id="left_header" class="left_header">
+                    <h1>Discover <br> New music</h1>
+                </header>
+                <figure id="left_topChart" class="left_topChart">
+                    <div class="left_search">
+                        <form id="left_form" class="form">
 
-                    <!-- ------------------------ LINE SEARCH ---------------------- -->
+                        <!-- ------------------------ LINE SEARCH ---------------------- -->
 
-                        <!-- <album-filter></album-filter> -->
-                        <label for="search">
-                            <input class="input" type="text" required="" placeholder="What do you want to listen to?" id="search">
-                            <div class="fancy-bg"></div>
-                            <div class="search">
-                                <svg viewBox="0 0 24 24" aria-hidden="true" class="r-14j79pv r-4qtqp9 r-yyyyoo r-1xvli5t r-dnmrzs r-4wgw6l r-f727ji r-bnwqim r-1plcrui r-lrvibr">
-                                    <g>
-                                        <path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"></path>
-                                    </g>
-                                </svg>
+                            <!-- <album-filter></album-filter> -->
+                            <label for="search">
+                                <input class="input" type="text" required="" placeholder="What do you want to listen to?" id="search">
+                                <div class="fancy-bg"></div>
+                                <div class="search">
+                                    <svg viewBox="0 0 24 24" aria-hidden="true" class="r-14j79pv r-4qtqp9 r-yyyyoo r-1xvli5t r-dnmrzs r-4wgw6l r-f727ji r-bnwqim r-1plcrui r-lrvibr">
+                                        <g>
+                                            <path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"></path>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <button class="close-btn" type="reset">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                                    </svg>
+                                </button>
+                            </label>
+                        </form>
+                    </div>                
+                </figure>
+
+
+                <!-- ----------------------------- ALBUMS LISTS ------------------------- -->
+                <!-- <album-info></album-info>
+                <album-info2></album-info2> -->
+                <!-- <album-images></album-images> -->
+                <div class="left_albumsPosition">
+                    <section class="left_baseAlbum">
+                        <div class="left_album">
+                            <div class="left_albumContent">
+                                <album-images index="0"></album-images>
+                                <h2><song-titles index="0"></song-titles></h2>
                             </div>
-                            <button class="close-btn" type="reset">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                                    <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
-                                </svg>
-                            </button>
-                        </label>
-                    </form>
-                </div>                
-            </figure>
+                        </div>
+                        <div class="left_album2">
+                            <div class="left_albumContent">
+                                <album-images index="1"></album-images>
+                                <h2><song-titles index="1"></song-titles></h2>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="left_baseAlbum2">
+                        <div class="left_album">
+                            <div class="left_albumContent">
+                                <album-images index="2"></album-images>
+                                <h2><song-titles index="2"></song-titles></h2>
+                            </div>
+                        </div>
+                        <div class="left_album2">
+                            <div class="left_albumContent">
+                                <album-images index="3"></album-images>
+                                <h2><song-titles index="3"></song-titles></h2>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="left_baseAlbum2">
+                        <div class="left_album">
+                            <div class="left_albumContent">
+                                <album-images index="4"></album-images>
+                                <h2><song-titles index="4"></song-titles></h2>
+                            </div>
+                        </div>
+                        <div class="left_album2">
+                            <div class="left_albumContent">
+                                <album-images index="5"></album-images>
+                                <h2><song-titles index="5"></song-titles></h2>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="left_baseAlbum2">
+                        <div class="left_album">
+                            <div class="left_albumContent">
+                                <album-images index="6"></album-images>
+                                <h2><song-titles index="6"></song-titles></h2>
+                            </div>
+                        </div>
+                        <div class="left_album2">
+                            <div class="left_albumContent">
+                                <album-images index="7"></album-images>
+                                <h2><song-titles index="7"></song-titles></h2>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="left_baseAlbum2">
+                        <div class="left_album">
+                            <div class="left_albumContent">
+                                <album-images index="8"></album-images>
+                                <h2><song-titles index="8"></song-titles></h2>
+                            </div>
+                        </div>
+                        <div class="left_album2">
+                            <div class="left_albumContent">
+                                <album-images index="9"></album-images>
+                                <h2><song-titles index="9"></song-titles></h2>
+                            </div>
+                        </div>
+                    </section>
+                </div>
 
+                <!-- --------------------- LIST OF YOU MAY LIKE ----------------------------- -->
 
-            <!-- ----------------------------- ALBUMS LISTS ------------------------- -->
-            <!-- <album-info></album-info>
-            <album-info2></album-info2> -->
-            <!-- <album-images></album-images> -->
-            <div class="left_albumsPosition">
-                <section class="left_baseAlbum">
-                    <div class="left_album">
-                        <div class="left_albumContent">
-                            <album-images index="0"></album-images>
-                            <h2><song-titles index="0"></song-titles></h2>
-                        </div>
-                    </div>
-                    <div class="left_album2">
-                        <div class="left_albumContent">
-                            <album-images index="1"></album-images>
-                            <h2><song-titles index="1"></song-titles></h2>
-                        </div>
+                <section class="left_youMayLike">
+                    <div class="left_youMayLikeTitle">
+                        <h2>You May Like</h1>
                     </div>
                 </section>
-                <section class="left_baseAlbum2">
-                    <div class="left_album">
-                        <div class="left_albumContent">
-                            <album-images index="2"></album-images>
-                            <h2><song-titles index="2"></song-titles></h2>
+                <section class="left_youMayLikeList">
+                    <div class="left_youMayLikeListBoxes">
+                        <may-like></may-like>
+                    </div>
+                    <!-- <div class="left_youMayLikeListBoxes">
+                        <div class="left_youMayLikeListImg">
+                            <img src="storage/img/yatra.png" alt="list">
+                        </div>
+                        <div class="left_youMayLikeListDescription">
+                            <h3>Mantra</h3>
+                            <p>Sebastian Yatra</p>
+                        </div>
+                        <div class="left_youMayLikeListTime">
+                            <h3>3:28</h3>
+                            <p>2018</p>                        
                         </div>
                     </div>
-                    <div class="left_album2">
-                        <div class="left_albumContent">
-                            <album-images index="3"></album-images>
-                            <h2><song-titles index="3"></song-titles></h2>
+                    <div class="left_youMayLikeListBoxes">
+                        <div class="left_youMayLikeListImg">
+                            <img src="storage/img/yatra.png" alt="list">
+                        </div>
+                        <div class="left_youMayLikeListDescription">
+                            <h3>Mantra</h3>
+                            <p>Sebastian Yatra</p>
+                        </div>
+                        <div class="left_youMayLikeListTime">
+                            <h3>3:28</h3>
+                            <p>2018</p>                        
                         </div>
                     </div>
-                </section>
-                <section class="left_baseAlbum2">
-                    <div class="left_album">
-                        <div class="left_albumContent">
-                            <album-images index="4"></album-images>
-                            <h2><song-titles index="4"></song-titles></h2>
+                    <div class="left_youMayLikeListBoxes">
+                        <div class="left_youMayLikeListImg">
+                            <img src="storage/img/yatra.png" alt="list">
+                        </div>
+                        <div class="left_youMayLikeListDescription">
+                            <h3>Mantra</h3>
+                            <p>Sebastian Yatra</p>
+                        </div>
+                        <div class="left_youMayLikeListTime">
+                            <h3>3:28</h3>
+                            <p>2018</p>                        
                         </div>
                     </div>
-                    <div class="left_album2">
-                        <div class="left_albumContent">
-                            <album-images index="5"></album-images>
-                            <h2><song-titles index="5"></song-titles></h2>
+                    <div class="left_youMayLikeListBoxes">
+                        <div class="left_youMayLikeListImg">
+                            <img src="storage/img/yatra.png" alt="list">
+                        </div>
+                        <div class="left_youMayLikeListDescription">
+                            <h3>Mantra</h3>
+                            <p>Sebastian Yatra</p>
+                        </div>
+                        <div class="left_youMayLikeListTime">
+                            <h3>3:28</h3>
+                            <p>2018</p>                        
                         </div>
                     </div>
-                </section>
-                <section class="left_baseAlbum2">
-                    <div class="left_album">
-                        <div class="left_albumContent">
-                            <album-images index="6"></album-images>
-                            <h2><song-titles index="6"></song-titles></h2>
+                    <div class="left_youMayLikeListBoxes">
+                        <div class="left_youMayLikeListImg">
+                            <img src="storage/img/yatra.png" alt="list">
+                        </div>
+                        <div class="left_youMayLikeListDescription">
+                            <h3>Mantra</h3>
+                            <p>Sebastian Yatra</p>
+                        </div>
+                        <div class="left_youMayLikeListTime">
+                            <h3>3:28</h3>
+                            <p>2018</p>                        
                         </div>
                     </div>
-                    <div class="left_album2">
-                        <div class="left_albumContent">
-                            <album-images index="7"></album-images>
-                            <h2><song-titles index="7"></song-titles></h2>
+                    <div class="left_youMayLikeListBoxes">
+                        <div class="left_youMayLikeListImg">
+                            <img src="storage/img/yatra.png" alt="list">
                         </div>
-                    </div>
-                </section>
-                <section class="left_baseAlbum2">
-                    <div class="left_album">
-                        <div class="left_albumContent">
-                            <album-images index="8"></album-images>
-                            <h2><song-titles index="8"></song-titles></h2>
+                        <div class="left_youMayLikeListDescription">
+                            <h3>Mantra</h3>
+                            <p>Sebastian Yatra</p>
                         </div>
-                    </div>
-                    <div class="left_album2">
-                        <div class="left_albumContent">
-                            <album-images index="9"></album-images>
-                            <h2><song-titles index="9"></song-titles></h2>
-                        </div>
+                        <div class="left_youMayLikeListTime">
+                            <h3>3:28</h3>
+                            <p>2018</p>                        
+                        </div> -->
                     </div>
                 </section>
             </div>
-
-            <!-- --------------------- LIST OF YOU MAY LIKE ----------------------------- -->
-
-            <section class="left_youMayLike">
-                <div class="left_youMayLikeTitle">
-                    <h2>You May Like</h1>
-                </div>
-            </section>
-            <section class="left_youMayLikeList">
-                <div class="left_youMayLikeListBoxes">
-                    <may-like></may-like>
-                </div>
-                <!-- <div class="left_youMayLikeListBoxes">
-                    <div class="left_youMayLikeListImg">
-                        <img src="storage/img/yatra.png" alt="list">
-                    </div>
-                    <div class="left_youMayLikeListDescription">
-                        <h3>Mantra</h3>
-                        <p>Sebastian Yatra</p>
-                    </div>
-                    <div class="left_youMayLikeListTime">
-                        <h3>3:28</h3>
-                        <p>2018</p>                        
-                    </div>
-                </div>
-                <div class="left_youMayLikeListBoxes">
-                    <div class="left_youMayLikeListImg">
-                        <img src="storage/img/yatra.png" alt="list">
-                    </div>
-                    <div class="left_youMayLikeListDescription">
-                        <h3>Mantra</h3>
-                        <p>Sebastian Yatra</p>
-                    </div>
-                    <div class="left_youMayLikeListTime">
-                        <h3>3:28</h3>
-                        <p>2018</p>                        
-                    </div>
-                </div>
-                <div class="left_youMayLikeListBoxes">
-                    <div class="left_youMayLikeListImg">
-                        <img src="storage/img/yatra.png" alt="list">
-                    </div>
-                    <div class="left_youMayLikeListDescription">
-                        <h3>Mantra</h3>
-                        <p>Sebastian Yatra</p>
-                    </div>
-                    <div class="left_youMayLikeListTime">
-                        <h3>3:28</h3>
-                        <p>2018</p>                        
-                    </div>
-                </div>
-                <div class="left_youMayLikeListBoxes">
-                    <div class="left_youMayLikeListImg">
-                        <img src="storage/img/yatra.png" alt="list">
-                    </div>
-                    <div class="left_youMayLikeListDescription">
-                        <h3>Mantra</h3>
-                        <p>Sebastian Yatra</p>
-                    </div>
-                    <div class="left_youMayLikeListTime">
-                        <h3>3:28</h3>
-                        <p>2018</p>                        
-                    </div>
-                </div>
-                <div class="left_youMayLikeListBoxes">
-                    <div class="left_youMayLikeListImg">
-                        <img src="storage/img/yatra.png" alt="list">
-                    </div>
-                    <div class="left_youMayLikeListDescription">
-                        <h3>Mantra</h3>
-                        <p>Sebastian Yatra</p>
-                    </div>
-                    <div class="left_youMayLikeListTime">
-                        <h3>3:28</h3>
-                        <p>2018</p>                        
-                    </div>
-                </div>
-                <div class="left_youMayLikeListBoxes">
-                    <div class="left_youMayLikeListImg">
-                        <img src="storage/img/yatra.png" alt="list">
-                    </div>
-                    <div class="left_youMayLikeListDescription">
-                        <h3>Mantra</h3>
-                        <p>Sebastian Yatra</p>
-                    </div>
-                    <div class="left_youMayLikeListTime">
-                        <h3>3:28</h3>
-                        <p>2018</p>                        
-                    </div> -->
-                </div>
-            </section>
         </aside>
-        <section id="section_middle" class="section_middle">
-            <header class="section_middleHeader">
-                <h1>Now playing</h1>
-            </header>
-            <div class="frame__box">
-                <div class="frame_boxPosition">
-                    <my-frame id="section_middleFrame" class= "section_middleFrame" uri="spotify:album:2G4AUqfwxcV1UdQjm2ouYr"></my-frame>
+        <section id="columna2" id="section_middle" class="section_middle">
+                <header class="section_middleHeader">
+                    <h1>Now playing</h1>
+                </header>
+                <div class="frame__box">
+                    <div class="frame_boxPosition">
+                        <my-frame id="section_middleFrame" class= "section_middleFrame" uri="spotify:album:2G4AUqfwxcV1UdQjm2ouYr"></my-frame>
+                    </div>
                 </div>
-            </div>
-            <song-filter></song-filter>
-            <!-- <figure id="middle_topChart" class="middle_topChart">
-                <div class="middle_search">
-                    <form class="form">
-                        <label for="search">
-                            <input class="input" type="text" required="" placeholder="What do you want to listen to?" id="search">
-                            <div class="fancy-bg"></div>
-                            <div class="search">
-                                <svg viewBox="0 0 24 24" aria-hidden="true" class="r-14j79pv r-4qtqp9 r-yyyyoo r-1xvli5t r-dnmrzs r-4wgw6l r-f727ji r-bnwqim r-1plcrui r-lrvibr">
-                                    <g>
-                                        <path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"></path>
-                                    </g>
-                                </svg>
-                            </div>
-                            <button class="close-btn" type="reset">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                                    <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
-                                </svg>
-                            </button>
-                        </label>
-                    </form>
-                </div>
-            </figure> -->
+                <song-filter></song-filter>
+                <!-- <figure id="middle_topChart" class="middle_topChart">
+                    <div class="middle_search">
+                        <form class="form">
+                            <label for="search">
+                                <input class="input" type="text" required="" placeholder="What do you want to listen to?" id="search">
+                                <div class="fancy-bg"></div>
+                                <div class="search">
+                                    <svg viewBox="0 0 24 24" aria-hidden="true" class="r-14j79pv r-4qtqp9 r-yyyyoo r-1xvli5t r-dnmrzs r-4wgw6l r-f727ji r-bnwqim r-1plcrui r-lrvibr">
+                                        <g>
+                                            <path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"></path>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <button class="close-btn" type="reset">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                                    </svg>
+                                </button>
+                            </label>
+                        </form>
+                    </div>
+                </figure> -->
         </section>
-        <aside id="right_aside" class="right_aside">
+        <aside id="columna3" id="right_aside" class="right_aside">
             <header class="right_asideTitle">
                 <h1>Track list</h1>
             </header>
@@ -447,8 +450,21 @@
                 
             </section>
         </aside>
-        <button class="show_left_button" onclick="showLeft()">Mostrar Izquierda</button>
-        <button class="show_right_button" onclick="showRight()">Mostrar Derecha</button>
+        <footer class="menu__mobile">
+            <button onclick="mostrarColumna(1)">
+                <i class='bx bx-home-alt'></i>
+               
+            </button>
+            <button onclick="mostrarColumna(2)">
+                <i class='bx bx-album' ></i>
+    
+            </button>
+            <button onclick="mostrarColumna(3)">
+                <i class='bx bx-menu' ></i>
+    
+            </button>
+    
+        </footer>
     </main>
 </body>
 </html>
