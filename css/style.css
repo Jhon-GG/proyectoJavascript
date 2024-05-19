@@ -695,7 +695,13 @@ body, html{
   display: none;
 }
 
-
+.ampliar-imagen {
+  width: 30px;
+  height: 30px;
+  border-width: 0; /* Ancho del borde */
+  border-style: none; /* Estilo del borde */
+  border-color: transparent; /* Color del borde */
+}
 
 /* -------------------------------- RESPONSIVE --------------------------------------- */
 
